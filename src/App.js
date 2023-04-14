@@ -5,7 +5,14 @@ import Contact from './components/Contact';
 import About from './components/About';
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <Header />
+      <About />
+      <Contact />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
