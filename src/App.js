@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import Header from './components/Header';
-import Navbar from './components/Navbar';
+import Navbar from './components/navbar/Navbar';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
 import About from './components/About';
