@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 const Skills = () => {
-  return <div> SKills</div>;
+  return <section id="skills">SKills</section>;
 };
 
 export default Skills;
