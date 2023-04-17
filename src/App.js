@@ -12,7 +12,6 @@ function App() {
     <main>
       <Navbar />
       <Header />
-      <Header />
       <About />
       <FloatingNav />
       <Experience />
