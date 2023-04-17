@@ -4,12 +4,12 @@ const data = [
   {
     id: 1,
     link: 'https://www.linkedin.com/in/johnxlai',
-    icon: <AiFillLinkedin />,
+    icon: <AiFillLinkedin size={20} />,
   },
   {
     id: 1,
     link: 'https://github.com/johnxlai',
-    icon: <AiFillGithub />,
+    icon: <AiFillGithub size={20} />,
   },
 ];
 

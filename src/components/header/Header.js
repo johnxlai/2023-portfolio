@@ -5,12 +5,12 @@ import SocialData from './socialData';
 const Header = () => {
   return (
     <header className="header mt-[5rem]">
-      <div className="container header-container relative flex flex-col items-center">
+      <div className="header-container container mx-auto relative flex flex-col items-center text-center">
         <div className="header-profile">
           <img className="mb-5" src={HeaderImage} alt="John Lai" />
         </div>
-        <h2 className="mb-3">John Lai</h2>
-        <p>
+        <h2 className="mb-2">John Lai</h2>
+        <p className="mb-3 w-1/2">
           I’m a Toronto-based Full Stack Developer, a recent graduate from the
           full time University Of Toronto Bootcamp. As a graduate from Creative
           Advertising at Seneca and Advertising & Graphic Design at Humber
@@ -21,7 +21,7 @@ const Header = () => {
           at Jonas Club Software. At Jonas, I’ve worked on over 200 websites,
           building web content and adjusting layouts using HTML and CSS.
         </p>
-        <div className="flex gap-3 my-4">
+        <div className="flex gap-3 ">
           <a href="#contact" className="btn-primary">
             talk
           </a>
@@ -29,10 +29,14 @@ const Header = () => {
             Portfolio
           </a>
         </div>
-        <ul className="header-social flex">
+        <ul className="header-social flex flex-col gap-3 absolute left-0 bottom-0">
           {SocialData.map((item) => (
             <li key={item.id}>
-              <a href={item.link} target="_blank" rel="noopener noreferrer">
+              <a
+                className="header-social-icons"
+                href={item.link}
+                target="_blank"
+                rel="noopener noreferrer">
                 {item.icon}
               </a>
             </li>
