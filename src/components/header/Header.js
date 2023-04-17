@@ -4,13 +4,13 @@ import SocialData from './socialData';
 
 const Header = () => {
   return (
-    <header className="header mt-[5rem]">
-      <div className="header-container container mx-auto relative flex flex-col items-center text-center">
+    <header className="header mt-[4rem] lg:mt-[5rem]">
+      <div className="header-container container mx-auto relative flex flex-col items-center text-center  px-4">
         <div className="header-profile">
           <img className="mb-5" src={HeaderImage} alt="John Lai" />
         </div>
         <h2 className="mb-2">John Lai</h2>
-        <p className="mb-3 w-1/2">
+        <p className="mb-3 lg:w-1/2">
           I’m a Toronto-based Full Stack Developer, a recent graduate from the
           full time University Of Toronto Bootcamp. As a graduate from Creative
           Advertising at Seneca and Advertising & Graphic Design at Humber
