@@ -1,5 +1,6 @@
 import React from 'react';
-import HeaderImage from '../assets/images/jlai-logo-2023.svg';
+import HeaderImage from '../../assets/images/jlai-logo-2023.svg';
+import SocialData from './socialData';
 
 const Header = () => {
   return (
@@ -21,13 +22,22 @@ const Header = () => {
           building web content and adjusting layouts using HTML and CSS.
         </p>
         <div>
-          <a href="#contact" className="btn-primary">
+          <a href="#contact" className="">
             talk
           </a>
           <a href="#portfolio" className="">
             Portfolio
           </a>
         </div>
+        <ul className="header-social flex">
+          {SocialData.map((item) => (
+            <li key={item.id}>
+              <a href={item.link} target="_blank" rel="noopener noreferrer">
+                {item.icon}
+              </a>
+            </li>
+          ))}
+        </ul>
       </div>
     </header>
   );
