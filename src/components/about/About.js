@@ -1,4 +1,5 @@
 import React from 'react';
+import ProfileImg from '../../assets/images/john-lai-profile.jpg';
 import CV from '../../assets/resume/john-lai-resume.pdf';
 import { MdDownload } from 'react-icons/md';
 import aboutData from './aboutData';
@@ -6,19 +7,25 @@ import Card from '../card/Card';
 
 const About = () => {
   return (
-    <section id="about">
-      <div className="container mx-auto flex">
+    <section id="about" className="py-10">
+      <div className="container mx-auto flex gap-10">
         <div className="md:w-1/2">
-          <h3 className="section-heading">About</h3>
+          <img
+            className="w-full border-8 border-sky-500 hover:border-0 theme-transition"
+            src={ProfileImg}
+            alt="John Lai"
+          />
         </div>
         <div className="md:w-1/2">
           <h3 className="section-heading">About</h3>
-          <div className="cards">
+          <div className="cards grid grid-cols-3 gap-4">
             {aboutData.map((card) => {
               return (
-                <Card key={card.id} className="">
-                  <span>{card.icon}</span>
-                  <h5>{card.title}</h5>
+                <Card
+                  key={card.id}
+                  className=" flex flex-col justify-center items-center mb-3 p-1 md:px-3 py-8 bg-white rounded gap-2">
+                  <span className="text-3xl">{card.icon}</span>
+                  <h5 className="text-lg">{card.title}</h5>
                   <p>{card.desc}</p>
                 </Card>
               );

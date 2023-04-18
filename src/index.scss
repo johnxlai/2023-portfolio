@@ -17,6 +17,9 @@
   .header-social-icons {
     @apply w-7 aspect-square bg-green-300 rounded hidden lg:grid place-items-center hover:-translate-x-1 hover:bg-white focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 transition ease-in-out delay-150 duration-300;
   }
+  .theme-transition {
+    @apply transition ease-in-out delay-150 duration-300;
+  }
 }
 
 // primary

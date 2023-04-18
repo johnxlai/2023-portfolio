@@ -2,9 +2,7 @@ import React from 'react';
 
 const Card = ({ children, className, onClick }) => {
   return (
-    <article
-      className={`bg-white rounded p-1 md:p-3 ${className}`}
-      onClick={onClick}>
+    <article className={className} onClick={onClick}>
       {children}
     </article>
   );
