@@ -8,6 +8,7 @@ import Experience from './components/sections/Experience';
 import FloatingNav from './components/sections/FloatingNav';
 import Portfolio from './components/sections/portfolio/Portfolio';
 import Services from './components/sections/service/Services';
+import Skills from './components/sections/skills/Skills';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <About />
       <Services />
       <Portfolio />
+      <Skills />
       <FloatingNav />
       <Experience />
       <Contact />
