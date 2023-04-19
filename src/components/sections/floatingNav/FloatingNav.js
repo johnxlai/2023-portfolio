@@ -8,6 +8,7 @@ const FloatingNav = () => {
       id="floating-nav"
       className="flex items-center fixed bottom-10 left-[50%] -translate-x-1/2 z-50">
       <Scrollspy
+        offset={-400}
         className="scrollSpy"
         items={['header', 'about', 'experience', 'portfolio', 'contact']}
         currentClassName="active">
