@@ -9,6 +9,9 @@ import 'swiper/css/pagination';
 // import required modules
 import { FreeMode, Pagination } from 'swiper';
 
+import SkillsData from './skillsData';
+import Skill from './Skill';
+
 const Skills = () => {
   return (
     <section id="skills" className="py-10 px-4">
@@ -23,15 +26,13 @@ const Skills = () => {
         }}
         modules={[FreeMode, Pagination]}
         className="mySwiper">
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        {SkillsData.map((skill) => {
+          return (
+            <SwiperSlide key={skill.id}>
+              <Skill />
+            </SwiperSlide>
+          );
+        })}
       </Swiper>
     </section>
   );
