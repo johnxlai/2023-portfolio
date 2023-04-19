@@ -9,10 +9,10 @@ const Portfolio = () => {
 
   const categories = PortfolioData.map((item) => item.category);
   const uniqueCategories = ['all', ...new Set(categories)];
-  console.log(uniqueCategories);
 
   const filterProjectsHandler = (category) => {
     if (category === 'all') {
+      //set project to all projects by default
       setProjects(PortfolioData);
       return;
     }
