@@ -7,9 +7,20 @@ import { useState } from 'react';
 const Portfolio = () => {
   const [projects, setProjects] = useState(PortfolioData);
 
-  const catergories = PortfolioData.map((item) => item.category);
-  const uniqueCategories = ['all', ...new Set(catergories)];
+  const categories = PortfolioData.map((item) => item.category);
+  const uniqueCategories = ['all', ...new Set(categories)];
   console.log(uniqueCategories);
+
+  const filterProjectsHandler = (category) => {
+    if (category === 'all') {
+      setProjects(PortfolioData);
+      return;
+    }
+    const filterProjects = PortfolioData.filter(
+      (project) => project.category === category
+    );
+    setProjects(filterProjects);
+  };
 
   return (
     <section id="portfolio" className="py-10 px-4 text-white">
@@ -22,16 +33,12 @@ const Portfolio = () => {
           illum corrupti?
         </p>
         <div className="portfolio-container">
-          <ProjectsCategories catergories={uniqueCategories} />
+          <ProjectsCategories
+            categories={uniqueCategories}
+            onFilterProjects={filterProjectsHandler}
+          />
           <Projects projects={projects} />
         </div>
-        {/* {PortfolioData.map((portfolio) => {
-          return (
-            <Card>
-              <img src={portfolio.image} alt={portfolio.title} />
-            </Card>
-          );
-        })} */}
       </div>
     </section>
   );

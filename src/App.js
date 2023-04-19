@@ -6,8 +6,8 @@ import Contact from './components/sections/Contact';
 import About from './components/sections/about/About';
 import Experience from './components/sections/Experience';
 import FloatingNav from './components/sections/FloatingNav';
-import Services from './components/sections/service/Services';
 import Portfolio from './components/sections/portfolio/Portfolio';
+import Services from './components/sections/service/Services';
 
 function App() {
   return (
