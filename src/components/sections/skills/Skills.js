@@ -21,6 +21,7 @@ const Skills = () => {
         slidesPerView={3}
         spaceBetween={30}
         freeMode={true}
+        grabCursor={true}
         pagination={{
           clickable: true,
         }}
@@ -29,7 +30,7 @@ const Skills = () => {
         {SkillsData.map((skill) => {
           return (
             <SwiperSlide key={skill.id}>
-              <Skill />
+              <Skill skill={skill} />
             </SwiperSlide>
           );
         })}
