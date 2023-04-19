@@ -1,0 +1,13 @@
+//portfolio fade in animation
+.portfolio {
+  animation: animateFadeIn 800ms ease-in forwards;
+}
+
+@keyframes animateFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

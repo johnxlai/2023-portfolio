@@ -2,7 +2,7 @@ import Card from '../../card/Card';
 
 const Project = ({ project }) => {
   return (
-    <Card className="portfolio bg-white rounded p-4 text-purple-800">
+    <Card className="portfolio bg-white rounded p-4 text-purple-800 ">
       <div className="portfolio-image">
         <img className="mb-3" src={project.image} alt={project.title} />
         <h4>{project.title}</h4>
