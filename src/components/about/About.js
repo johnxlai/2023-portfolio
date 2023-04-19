@@ -7,7 +7,7 @@ import Card from '../card/Card';
 
 const About = () => {
   return (
-    <section id="about" className="py-10">
+    <section id="about" className="py-10 px-4">
       <div className="container mx-auto flex gap-10">
         <div className="md:w-1/2">
           <img
