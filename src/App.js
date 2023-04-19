@@ -6,6 +6,7 @@ import Contact from './components/Contact';
 import About from './components/about/About';
 import Experience from './components/Experience';
 import FloatingNav from './components/FloatingNav';
+import Services from './components/service/Services';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Header />
       <About />
+      <Services />
       <FloatingNav />
       <Experience />
       <Contact />
