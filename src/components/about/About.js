@@ -2,7 +2,7 @@ import React from 'react';
 import ProfileImg from '../../assets/images/john-lai-profile.jpg';
 import CV from '../../assets/resume/john-lai-resume.pdf';
 import { MdDownload } from 'react-icons/md';
-import aboutData from './aboutData';
+import AboutData from './aboutData';
 import Card from '../card/Card';
 
 const About = () => {
@@ -19,7 +19,7 @@ const About = () => {
         <div className="md:w-1/2">
           <h3 className="section-heading">About</h3>
           <div className="cards grid grid-cols-3 gap-4">
-            {aboutData.map((card) => {
+            {AboutData.map((card) => {
               return (
                 <Card
                   key={card.id}
