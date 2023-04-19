@@ -85,3 +85,7 @@ code {
 a {
   transition: var(--transition);
 }
+#floating-nav li.active a {
+  color: #fff;
+  background: var(--primary-color);
+}
