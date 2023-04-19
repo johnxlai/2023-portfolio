@@ -5,9 +5,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
 
 // import required modules
-import { FreeMode, Pagination } from 'swiper';
+import { Autoplay, FreeMode, Pagination } from 'swiper';
 
 import SkillsData from './skillsData';
 import Skill from './Skill';
@@ -18,14 +19,33 @@ const Skills = () => {
       <div className="container mx-auto"></div>
 
       <Swiper
-        slidesPerView={3}
+        slidesPerView={1}
+        breakpoints={{
+          // when window width is >= 640px
+          640: {
+            width: 640,
+            slidesPerView: 1,
+          },
+          // when window width is >= 768px
+          768: {
+            width: 768,
+            slidesPerView: 2,
+          },
+          // when window width is >= 1024px
+          1024: {
+            width: 1024,
+            slidesPerView: 3,
+          },
+        }}
         spaceBetween={30}
+        loop={true}
         freeMode={true}
         grabCursor={true}
         pagination={{
           clickable: true,
         }}
-        modules={[FreeMode, Pagination]}
+        modules={[FreeMode, Pagination, Autoplay]}
+        autoplay={true}
         className="mySwiper">
         {SkillsData.map((skill) => {
           return (
