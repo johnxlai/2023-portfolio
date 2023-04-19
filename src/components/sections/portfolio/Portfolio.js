@@ -7,10 +7,13 @@ import { useState } from 'react';
 const Portfolio = () => {
   const [projects, setProjects] = useState(PortfolioData);
 
+  const catergories = PortfolioData.map((item) => item.category);
+  console.log(catergories);
+
   return (
     <section id="portfolio" className="py-10 px-4 text-white">
       <div className="container mx-auto">
-        <h3 class="section-heading">Recent Work</h3>
+        <h3 className="section-heading">Recent Work</h3>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum ut
           fugiat dolores autem nihil pariatur quam iure necessitatibus mollitia

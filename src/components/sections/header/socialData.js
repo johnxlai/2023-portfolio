@@ -7,7 +7,7 @@ const data = [
     icon: <AiFillLinkedin size={20} />,
   },
   {
-    id: 1,
+    id: 2,
     link: 'https://github.com/johnxlai',
     icon: <AiFillGithub size={20} />,
   },
