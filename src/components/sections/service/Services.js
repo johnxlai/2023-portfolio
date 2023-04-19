@@ -1,6 +1,6 @@
 import React from 'react';
 import ServiceData from './serviceData';
-import Card from '../card/Card';
+import Card from '../../card/Card';
 const Services = () => {
   return (
     <section id="services" className="py-10 px-4">

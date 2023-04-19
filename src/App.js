@@ -1,13 +1,13 @@
 // import logo from './logo.svg';
-import Header from './components/header/Header';
-import Navbar from './components/navbar/Navbar';
-import Footer from './components/Footer';
-import Contact from './components/Contact';
-import About from './components/about/About';
-import Experience from './components/Experience';
-import FloatingNav from './components/FloatingNav';
-import Services from './components/service/Services';
-import Portfolio from './components/portfolio/Portfolio';
+import Header from './components/sections/header/Header';
+import Navbar from './components/sections/navbar/Navbar';
+import Footer from './components/sections/Footer';
+import Contact from './components/sections/Contact';
+import About from './components/sections/about/About';
+import Experience from './components/sections/Experience';
+import FloatingNav from './components/sections/FloatingNav';
+import Services from './components/sections/service/Services';
+import Portfolio from './components/sections/portfolio/Portfolio';
 
 function App() {
   return (

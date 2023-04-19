@@ -1,5 +1,5 @@
 import React from 'react';
-import HeaderImage from '../../assets/images/john-lai-profile.jpg';
+import HeaderImage from '../../../assets/images/john-lai-profile.jpg';
 import SocialData from './socialData';
 
 const Header = () => {

@@ -1,4 +1,4 @@
-import Logo from '../../assets/images/jlai-logo-2023.svg';
+import Logo from '../../../assets/images/jlai-logo-2023.svg';
 import NavItems from './navData';
 import React from 'react';
 import { IoIosColorPalette } from 'react-icons/io';

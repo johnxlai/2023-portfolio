@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from '../card/Card';
+import Card from '../../card/Card';
 import PortfolioData from './portfolioData';
 import Projects from './Projects';
 import ProjectsCategories from './ProjectsCategories';
@@ -8,8 +8,8 @@ const Portfolio = () => {
   const [projects, setProjects] = useState(PortfolioData);
 
   return (
-    <section id="portfolio" className="py-10 px-4">
-      <div className="container mx-auto flex gap-10">
+    <section id="portfolio" className="py-10 px-4 text-white">
+      <div className="container mx-auto">
         <h3 class="section-heading">Recent Work</h3>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum ut

@@ -1,4 +1,4 @@
-import Image1 from '../../assets/images/portfolio/travel-me.png';
+import Image1 from '../../../assets/images/portfolio/travel-me.png';
 
 const PortfolioData = [
   {

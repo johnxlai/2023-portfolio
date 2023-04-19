@@ -1,9 +1,9 @@
 import React from 'react';
-import ProfileImg from '../../assets/images/john-lai-profile.jpg';
-import CV from '../../assets/resume/john-lai-resume.pdf';
+import ProfileImg from '../../../assets/images/john-lai-profile.jpg';
+import CV from '../../../assets/resume/john-lai-resume.pdf';
 import { MdDownload } from 'react-icons/md';
 import AboutData from './aboutData';
-import Card from '../card/Card';
+import Card from '../../card/Card';
 
 const About = () => {
   return (
