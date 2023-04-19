@@ -1,10 +1,10 @@
-import React from 'react';
+import Project from './Project';
 
 const Projects = ({ projects }) => {
   return (
     <div className="portfolio-projects">
       {projects.map((project) => (
-        <Projects />
+        <Project key={project.id} project={project} />
       ))}
     </div>
   );

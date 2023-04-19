@@ -1,7 +1,7 @@
 import React from 'react';
 
-const ProjectCategories = () => {
-  return <div></div>;
+const ProjectsCategories = () => {
+  return <div>ProjectsCategories</div>;
 };
 
-export default ProjectCategories;
+export default ProjectsCategories;
