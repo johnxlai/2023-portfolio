@@ -12,7 +12,7 @@ const PortfolioData = [
   },
   {
     id: 2,
-    category: 'React',
+    category: 'Front End',
     image: Image1,
     title: 'React2 Portfolio',
     desc: 'A portfolio website built with React',
@@ -21,7 +21,7 @@ const PortfolioData = [
   },
   {
     id: 3,
-    category: 'React',
+    category: 'Back End',
     image: Image1,
     title: 'React Portfolio',
     desc: 'A portfolio website built with React',
@@ -30,7 +30,7 @@ const PortfolioData = [
   },
   {
     id: 4,
-    category: 'React',
+    category: 'Full Stack',
     image: Image1,
     title: 'React Portfolio',
     desc: 'A portfolio website built with React',

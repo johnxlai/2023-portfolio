@@ -8,7 +8,8 @@ const Portfolio = () => {
   const [projects, setProjects] = useState(PortfolioData);
 
   const catergories = PortfolioData.map((item) => item.category);
-  console.log(catergories);
+  const uniqueCategories = ['all', ...new Set(catergories)];
+  console.log(uniqueCategories);
 
   return (
     <section id="portfolio" className="py-10 px-4 text-white">
@@ -21,7 +22,7 @@ const Portfolio = () => {
           illum corrupti?
         </p>
         <div className="portfolio-container">
-          <ProjectsCategories />
+          <ProjectsCategories catergories={uniqueCategories} />
           <Projects projects={projects} />
         </div>
         {/* {PortfolioData.map((portfolio) => {
