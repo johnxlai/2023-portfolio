@@ -6,12 +6,12 @@
 //Add Animate CSS
 @import 'animate.css';
 
-@import './styles/custom.scss';
 @import './styles/swiper.scss';
+@import './styles/custom.scss';
 
 @layer components {
   .navbar {
-    @apply w-screen h-[4rem] lg:h-[5rem] grid place-items-center bg-green-400 fixed top-0 left-0 shadow-lg transition ease-in-out delay-150 duration-300;
+    @apply w-screen h-[4rem] lg:h-[5rem] grid place-items-center bg-green-400 fixed top-0 left-0 z-[100] shadow-lg transition ease-in-out delay-150 duration-300;
   }
   .btn-primary {
     @apply py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 transition ease-in-out delay-150 duration-300;
@@ -24,6 +24,10 @@
   }
   .theme-transition {
     @apply transition ease-in-out delay-150 duration-300;
+  }
+
+  .scrollSpy {
+    @apply flex gap-3 bg-black/[0.4] rounded-full px-4 py-3 backdrop-blur-xl;
   }
 }
 
