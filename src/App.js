@@ -16,7 +16,7 @@ function App() {
   const mainRef = useRef();
   const [showFloatingNav, setShowFloatingNav] = useState(true);
   const [siteYPosition, setSiteYPosition] = useState(0);
-  console.log(mainRef.current.getBoundingClientRect());
+  // console.log(mainRef.current.getBoundingClientRect());
 
   const showFloatingNavHandler = () => {
     setShowFloatingNav(true);
@@ -24,6 +24,27 @@ function App() {
   const hideFloatingNavHandler = () => {
     setShowFloatingNav(false);
   };
+
+  // Check if the floating nav should be shown or hidden
+  const floatingNavToggleHandler = () => {
+    //check if user is scrolling up or downn at least 20px
+    if (
+      siteYPosition < mainRef?.current?.getBoundingClientRect().y - 20 ||
+      siteYPosition > mainRef?.current?.getBoundingClientRect().y + 20
+    ) {
+      showFloatingNavHandler();
+    } else {
+      hideFloatingNavHandler();
+    }
+    setSiteYPosition(mainRef?.current?.getBoundingClientRect().y);
+  };
+
+  // useEffect(() => {
+  //   const checkYPosition = setInterval(floatingNavToggleHandler, 2000);
+
+  //   // stop interval
+  //   return () => clearInterval(checkYPosition);
+  // }, [siteYPosition]);
 
   return (
     <main ref={mainRef}>
@@ -36,7 +57,7 @@ function App() {
       <Experience />
       <Contact />
       <Footer />
-      <FloatingNav />
+      {showFloatingNav && <FloatingNav />}
     </main>
   );
 }
