@@ -9,18 +9,27 @@
 @import './styles/swiper.scss';
 @import './styles/custom.scss';
 
+// primary
+:root {
+  --primary-color: #0f0e0e;
+  // --primary-color: #3f5c64;
+  --secondary-color: #230540;
+  --tertiary-color: #09ad94;
+  --transition: all 500ms ease;
+}
+
 @layer components {
   .navbar {
     @apply w-screen h-[4rem] lg:h-[5rem] grid place-items-center bg-secondary fixed top-0 left-0 z-[100] shadow-lg transition ease-in-out delay-150 duration-300;
   }
   .btn-primary {
-    @apply py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 transition ease-in-out delay-150 duration-300;
+    @apply py-2 px-6 bg-teal-600 text-white font-semibold rounded-lg shadow-md hover:bg-[--secondary-color] hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 transition ease-in-out delay-150 duration-300;
   }
   .section-heading {
     @apply text-4xl font-bold text-center text-white uppercase;
   }
   .header-social-icons {
-    @apply w-7 aspect-square bg-[#191451] rounded hidden lg:grid place-items-center hover:-translate-x-1 hover:bg-white focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 transition ease-in-out delay-150 duration-300;
+    @apply w-7 aspect-square bg-teal-600 rounded hidden lg:grid place-items-center hover:-translate-x-1 hover:bg-white focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 transition ease-in-out delay-150 duration-300;
   }
   .theme-transition {
     @apply transition ease-in-out delay-150 duration-300;
@@ -29,13 +38,6 @@
   .scrollSpy {
     @apply flex gap-3 bg-black/[0.4] rounded-full px-6 py-3 backdrop-blur-xl;
   }
-}
-
-// primary
-:root {
-  --primary-color: #3f5c64;
-  --secondary-color: #001519;
-  --transition: all 500ms ease;
 }
 
 * {
@@ -60,19 +62,19 @@ h6 {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
 }
-h1 {
-  font-size: 4rem;
-}
-h2 {
-  font-size: 2.1rem;
-}
-h3 {
-  font-size: 2rem;
-}
+// h1 {
+//   font-size: 3rem;
+// }
+// h2 {
+//   font-size: 2.1rem;
+// }
+// h3 {
+//   font-size: 2rem;
+// }
 
-h4 {
-  font-size: 1.5rem;
-}
+// h4 {
+//   font-size: 1.5rem;
+// }
 p {
   font-family: 'Open Sans', sans-serif;
 }

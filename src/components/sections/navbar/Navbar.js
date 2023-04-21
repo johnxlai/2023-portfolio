@@ -13,7 +13,7 @@ const Navbar = () => {
             alt="John Lai's Logo"
             className="w-[2.5rem] max-w-full mr-4"
           />
-          <h1 class="text-white text-xl">JOHN LAI</h1>
+          <h2 className="text-white text-xl">JOHN LAI</h2>
         </a>
 
         <ul className="nav-menu hidden lg:flex gap-3 text-white uppercase font-bold font-roboto">

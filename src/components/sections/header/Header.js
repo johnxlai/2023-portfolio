@@ -12,14 +12,19 @@ const Header = () => {
 
   return (
     <header className="header mt-[4rem] lg:mt-[5rem]">
-      <div className="header-container container mx-auto relative flex flex-col items-center text-center  px-4">
+      <div className="header-container container mx-auto px-4 pt-12 relative flex flex-col items-center text-center text-white">
         <div className="header-profile" data-aos="fade-in">
-          <img className="mb-5" src={HeaderImage} alt="John Lai" />
+          <img className="mb-6 rounded-full" src={HeaderImage} alt="John Lai" />
         </div>
-        <h2 className="mb-2" data-aos="fade-up">
+        <h1 className="text-5xl mb-2 uppercase" data-aos="fade-up">
           John Lai
+        </h1>
+        <h2
+          className="text-uppercase text-xl text-md mb-4 typewriter"
+          data-aos="fade-up">
+          Full Stack Developer
         </h2>
-        <p className="mb-3 lg:w-1/2" data-aos="fade-up">
+        <p className="mb-8 lg:w-1/2 text-gray-300 leading-8" data-aos="fade-up">
           I’m a Toronto-based Full Stack Developer, a recent graduate from the
           full time University Of Toronto Bootcamp. As a graduate from Creative
           Advertising at Seneca and Advertising & Graphic Design at Humber
