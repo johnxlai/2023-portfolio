@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <header className="header mt-[4rem] lg:mt-[5rem]">
-      <div className="header-container container mx-auto px-4 pt-12 relative flex flex-col items-center text-center text-white">
+      <div className="header-container container mx-auto px-4 py-20 relative flex flex-col items-center text-center text-white">
         <div className="header-profile" data-aos="fade-in">
           <img className="mb-6 rounded-full" src={HeaderImage} alt="John Lai" />
         </div>
@@ -37,10 +37,10 @@ const Header = () => {
         </p>
         <div className="flex gap-3" data-aos="fade-up">
           <a href="#contact" className="btn-primary">
-            talk
+            Let's Chat
           </a>
           <a href="#portfolio" className="btn-primary">
-            Portfolio
+            Recent Work
           </a>
         </div>
         <ul className="header-social flex flex-col gap-3 absolute left-0 bottom-0">

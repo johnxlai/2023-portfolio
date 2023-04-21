@@ -7,11 +7,11 @@ import Card from '../../card/Card';
 
 const About = () => {
   return (
-    <section id="about" className="py-10 px-4" data-aos="fade-in">
+    <section id="about" className="py-20 px-4 bg-secondary" data-aos="fade-in">
       <div className="container mx-auto flex gap-10">
         <div className="md:w-1/2">
           <img
-            className="w-full border-8 border-sky-500 hover:border-0 theme-transition"
+            className="w-full max-w-[250px] border-8 border-sky-500 hover:border-0 theme-transition"
             src={ProfileImg}
             alt="John Lai"
           />
