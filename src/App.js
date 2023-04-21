@@ -13,10 +13,10 @@ import { useRef, useState, useEffect } from 'react';
 
 function App() {
   // For the floating nav, hiding and showing the nav on scroll
+  //set the main section as a ref
   const mainRef = useRef();
   const [showFloatingNav, setShowFloatingNav] = useState(true);
   const [siteYPosition, setSiteYPosition] = useState(0);
-  // console.log(mainRef.current.getBoundingClientRect());
 
   const showFloatingNavHandler = () => {
     setShowFloatingNav(true);
@@ -39,12 +39,12 @@ function App() {
     setSiteYPosition(mainRef?.current?.getBoundingClientRect().y);
   };
 
-  // useEffect(() => {
-  //   const checkYPosition = setInterval(floatingNavToggleHandler, 2000);
+  useEffect(() => {
+    const checkYPosition = setInterval(floatingNavToggleHandler, 2000);
 
-  //   // stop interval
-  //   return () => clearInterval(checkYPosition);
-  // }, [siteYPosition]);
+    // stop interval
+    return () => clearInterval(checkYPosition);
+  }, [siteYPosition]);
 
   return (
     <main ref={mainRef}>
