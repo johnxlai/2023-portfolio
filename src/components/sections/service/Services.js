@@ -3,7 +3,7 @@ import ServiceData from './serviceData';
 import Card from '../../card/Card';
 const Services = () => {
   return (
-    <section id="services" className="py-10 px-4">
+    <section id="services" className="py-10 px-4" data-aos="fade-up">
       <div className="container mx-auto">
         <h2>Services</h2>
         <p>Services below</p>
