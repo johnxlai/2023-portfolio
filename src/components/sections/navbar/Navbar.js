@@ -16,7 +16,7 @@ const Navbar = () => {
           <h1 class="text-white text-xl">JOHN LAI</h1>
         </a>
 
-        <ul className="nav-menu hidden lg:flex gap-3 text-white uppercase font-bold">
+        <ul className="nav-menu hidden lg:flex gap-3 text-white uppercase font-bold font-roboto">
           {NavItems.map((item) => (
             <li key={item.id}>
               <a href={item.link}>{item.title}</a>

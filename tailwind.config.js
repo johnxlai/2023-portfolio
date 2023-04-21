@@ -7,6 +7,9 @@ module.exports = {
         primary: 'var(--primary-color)',
         secondary: 'var(--secondary-color)',
       },
+      fontFamily: {
+        roboto: ['Roboto Condensed', 'sans-serif'],
+      },
     },
   },
   plugins: [],
