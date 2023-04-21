@@ -24,17 +24,19 @@ const Header = () => {
           data-aos="fade-up">
           Full Stack Developer
         </h2>
-        <p className="mb-8 lg:w-1/2 text-gray-300 leading-8" data-aos="fade-up">
-          I’m a Toronto-based Full Stack Developer, a recent graduate from the
-          full time University Of Toronto Bootcamp. As a graduate from Creative
-          Advertising at Seneca and Advertising & Graphic Design at Humber
-          College, I landed an internship at Normark Inc. (Rapala Canada), where
-          I designed products that are now being sold at chain retailers across
-          Canada such as Le Baron, Canadian Tire, and Wal-Mart. Upon completion
-          of the internship, I worked as a Web Content Designer & SEO Specialist
-          at Jonas Club Software. At Jonas, I’ve worked on over 200 websites,
-          building web content and adjusting layouts using HTML and CSS.
-        </p>
+        <div
+          className="mb-8 lg:w-1/2 text-gray-300 leading-8"
+          data-aos="fade-up">
+          <p>
+            I’m a Toronto-based Full Stack Developer, a recent graduate from the
+            full time University Of Toronto Bootcamp.
+          </p>
+          <p>
+            I worked as a Front-End Developer at Carpages.ca where I've worked
+            on over 300 websites converting photoshop, sketch and figma mockup
+            to wordpress site using bootstrap and tailwind.
+          </p>
+        </div>
         <div className="flex gap-3" data-aos="fade-up">
           <a href="#contact" className="btn-primary">
             Let's Chat

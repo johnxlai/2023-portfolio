@@ -17,7 +17,7 @@ const About = () => {
           />
         </div>
         <div className="md:w-1/2">
-          <h3 className="section-heading">About</h3>
+          <h3 className="section-heading">About Me</h3>
           <div className="cards grid grid-cols-3 gap-4">
             {AboutData.map((card) => {
               return (
@@ -31,15 +31,23 @@ const About = () => {
               );
             })}
           </div>
-          <p className="mb-3">
-            I worked as a Front-End Developer at Carpages.ca where I've worked
-            on over 300 websites converting photoshop, sketch and figma mockup
-            to wordpress site using bootstrap and tailwind.
-          </p>
-          <a className="flex items-center btn-primary" href={CV} download>
-            <span className="mr-2">Download CV</span>
-            <MdDownload />
-          </a>
+          <div className="text-white mb-3">
+            <p className="mb-3">
+              As a graduate from Creative Advertising at Seneca and Advertising
+              & Graphic Design at Humber College, I landed an internship at
+              Normark Inc. (Rapala Canada), where I designed products that are
+              now being sold at chain retailers across Canada such as Le Baron,
+              Canadian Tire, and Wal-Mart. Upon completion of the internship, I
+              worked as a Web Content Designer & SEO Specialist at Jonas Club
+              Software. At Jonas, I’ve worked on over 200 websites, building web
+              content and adjusting layouts using HTML and CSS.
+            </p>
+
+            <a className="flex items-center btn-primary" href={CV} download>
+              <span className="mr-2">Download CV</span>
+              <MdDownload />
+            </a>
+          </div>
         </div>
       </div>
     </section>
