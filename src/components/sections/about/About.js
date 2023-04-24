@@ -7,10 +7,13 @@ import Card from '../../card/Card';
 
 const About = () => {
   return (
-    <section id="about" className="py-20 px-4 bg-black " data-aos="fade-in">
+    <section
+      id="about"
+      className="py-20 px-4 bg-black text-center"
+      data-aos="fade-in">
       <div className="container mx-auto flex gap-10">
         <div className="md:w-8/12 mx-auto">
-          <h3 className="section-heading text-white">About Me</h3>
+          <h3 className="section-heading text-white mb-7">About Me</h3>
           <div className="cards grid grid-cols-3 gap-4">
             {AboutData.map((card) => {
               return (

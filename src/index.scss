@@ -33,7 +33,7 @@
     @apply py-2 px-6 bg-secondary text-primary font-semibold  border border-primary rounded-lg shadow-md hover:bg-[--secondary-color] hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 transition ease-in-out delay-150 duration-300;
   }
   .section-heading {
-    @apply text-3xl font-bold mb-7 uppercase;
+    @apply text-3xl font-bold  uppercase;
   }
   .header-social-icons {
     @apply w-7 aspect-square bg-secondary text-primary rounded hidden lg:grid place-items-center hover:-translate-x-1 hover:bg-white focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 transition ease-in-out delay-150 duration-300;

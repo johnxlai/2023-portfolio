@@ -21,7 +21,7 @@ const PortfolioData = [
   },
   {
     id: 3,
-    category: 'Back End',
+    category: 'Full Stack',
     image: Image1,
     title: 'React Portfolio',
     desc: 'A portfolio website built with React',

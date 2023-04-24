@@ -45,7 +45,7 @@ const Header = () => {
             Recent Work
           </a>
         </div>
-        <ul className="header-social flex flex-col gap-3 absolute left-0 bottom-0">
+        <ul className="header-social flex flex-col gap-3 absolute left-0 bottom-20">
           {SocialData.map((item) => (
             <li key={item.id}>
               <a
