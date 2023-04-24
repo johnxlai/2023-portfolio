@@ -11,11 +11,17 @@
 
 // primary
 :root {
-  --primary-color: #0f0e0e;
+  --primary-color: #00d4ff;
   // --primary-color: #3f5c64;
-  --secondary-color: #230540;
-  --tertiary-color: #09ad94;
+  --secondary-color: #001519;
+  --tertiary-color: #fe53bb;
   --transition: all 500ms ease;
+
+  // $primary-pink: #fe53bb;
+  // $secondary-yellow: #f5d300;
+  // $tertiary-blue: #00d4ff;
+  // $green: #72ff00;
+  // $black: #001519;
 }
 
 @layer components {
