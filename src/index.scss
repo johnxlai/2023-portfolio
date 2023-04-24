@@ -140,22 +140,37 @@ header.header {
   }
 }
 
-#skills {
-  position: relative;
+// #skills {
+//   position: relative;
 
-  &:before {
-    position: absolute;
-    content: '';
-    width: 100vw;
-    height: 12rem;
-    left: 0;
-    top: -90px;
-    background: var(--primary-color);
-    transform: skewY(-4deg);
-  }
-}
+//   &:before {
+//     position: absolute;
+//     content: '';
+//     width: 100vw;
+//     height: 12rem;
+//     left: 0;
+//     top: -90px;
+//     background: var(--primary-color);
+//     transform: skewY(-4deg);
+//   }
+// }
 
-#contact {
+// #contact {
+//   position: relative;
+
+//   &:before {
+//     position: absolute;
+//     content: '';
+//     width: 100vw;
+//     height: 12rem;
+//     left: 0;
+//     top: -90px;
+//     background: var(--secondary-color);
+//     transform: skewY(-4deg);
+//   }
+// }
+
+.angled-accent {
   position: relative;
 
   &:before {
