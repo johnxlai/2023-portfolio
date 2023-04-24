@@ -7,16 +7,9 @@ import Card from '../../card/Card';
 
 const About = () => {
   return (
-    <section id="about" className="py-20 px-4 bg-secondary" data-aos="fade-in">
+    <section id="about" className="py-20 px-4 bg-black" data-aos="fade-in">
       <div className="container mx-auto flex gap-10">
-        <div className="md:w-1/2">
-          <img
-            className="w-full max-w-[250px] border-8 border-sky-500 hover:border-0 theme-transition"
-            src={ProfileImg}
-            alt="John Lai"
-          />
-        </div>
-        <div className="md:w-1/2">
+        <div className="md:w-8/12 mx-auto">
           <h3 className="section-heading">About Me</h3>
           <div className="cards grid grid-cols-3 gap-4">
             {AboutData.map((card) => {
