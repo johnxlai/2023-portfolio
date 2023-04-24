@@ -10,7 +10,7 @@ const FloatingNav = () => {
       <Scrollspy
         offset={-400}
         className="scrollSpy"
-        items={['header', 'about', 'experience', 'portfolio', 'contact']}
+        items={['header', 'about', 'portfolio', 'skills', 'contact']}
         currentClassName="active">
         {FloatingNavData.map((item) => (
           <Nav key={item.id} item={item} />

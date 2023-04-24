@@ -4,7 +4,6 @@ import Navbar from './components/sections/navbar/Navbar';
 import Footer from './components/sections/Footer';
 import Contact from './components/sections/contact/Contact';
 import About from './components/sections/about/About';
-import Experience from './components/sections/Experience';
 import FloatingNav from './components/sections/floatingNav/FloatingNav';
 import Portfolio from './components/sections/portfolio/Portfolio';
 import Services from './components/sections/service/Services';
@@ -54,7 +53,7 @@ function App() {
       {/* <Services /> */}
       <Portfolio />
       <Skills />
-      <Experience />
+      {/* <Experience /> */}
       <Contact />
       <Footer />
       {showFloatingNav && <FloatingNav />}
