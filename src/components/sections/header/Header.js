@@ -14,7 +14,11 @@ const Header = () => {
     <header className="header mt-[4rem] lg:mt-[5rem]">
       <div className="header-container container mx-auto px-4 py-20 relative flex flex-col items-center text-center text-white">
         <div className="header-profile" data-aos="fade-in">
-          <img className="mb-6 rounded-full" src={HeaderImage} alt="John Lai" />
+          <img
+            className="mb-6 rounded-full w-[200px]"
+            src={HeaderImage}
+            alt="John Lai"
+          />
         </div>
         <h1 className="text-5xl mb-2 uppercase" data-aos="fade-up">
           John Lai

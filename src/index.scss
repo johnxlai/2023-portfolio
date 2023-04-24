@@ -27,10 +27,10 @@
 
 @layer components {
   .navbar {
-    @apply w-screen h-[4rem] lg:h-[5rem] grid place-items-center bg-secondary fixed top-0 left-0 z-[100] shadow-lg transition ease-in-out delay-150 duration-300;
+    @apply w-screen h-[4rem] lg:h-[5rem] grid place-items-center fixed top-0 left-0 z-[100] shadow-lg transition ease-in-out delay-150 duration-300;
   }
   .btn-primary {
-    @apply py-2 px-6 bg-secondary text-primary font-semibold  border border-primary rounded-lg shadow-md hover:bg-[--secondary-color] hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 transition ease-in-out delay-150 duration-300;
+    @apply py-2 px-6 bg-secondary text-primary font-semibold border border-primary rounded-lg shadow-md hover:border-[--tertiary-color] hover:text-[--tertiary-color] hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 transition ease-in-out delay-150 duration-300;
   }
   .section-heading {
     @apply text-3xl font-bold  uppercase;
@@ -54,7 +54,7 @@
 }
 
 body {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -108,4 +108,64 @@ header.header {
   background-position: 25% 75%;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.navbar {
+  &:after {
+    position: absolute;
+    content: '';
+    width: 100vw;
+    height: 11rem;
+    z-index: -1;
+    left: 0;
+    top: -5rem;
+    background: var(--secondary-color);
+    transform: skewY(-4deg);
+  }
+}
+
+#portfolio {
+  padding: 7rem 1rem 17rem;
+  position: relative;
+
+  &:before {
+    position: absolute;
+    content: '';
+    width: 100vw;
+    height: 10rem;
+    left: 0;
+    top: -90px;
+    background: var(--secondary-color);
+    transform: skewY(-4deg);
+  }
+}
+
+#skills {
+  position: relative;
+
+  &:before {
+    position: absolute;
+    content: '';
+    width: 100vw;
+    height: 12rem;
+    left: 0;
+    top: -90px;
+    background: var(--primary-color);
+    transform: skewY(-4deg);
+  }
+}
+
+#contact {
+  position: relative;
+
+  &:before {
+    position: absolute;
+    content: '';
+    width: 100vw;
+    height: 12rem;
+    left: 0;
+    top: -90px;
+    background: var(--secondary-color);
+    transform: skewY(-4deg);
+  }
 }

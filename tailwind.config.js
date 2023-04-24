@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         primary: 'var(--primary-color)',
         secondary: 'var(--secondary-color)',
+        tertiary: 'var(--tertiary-color)',
       },
       fontFamily: {
         roboto: ['Roboto Condensed', 'sans-serif'],
