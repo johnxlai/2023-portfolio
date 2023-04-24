@@ -3,8 +3,11 @@ import ContactData from './contactData';
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-10 px-4" data-aos="fade-up">
-      <div className="container mx-auto text-white">
+    <section
+      id="contact"
+      className="py-10 px-4 bg-secondary"
+      data-aos="fade-up">
+      <div className="container mx-auto text-secondary bg-primary p-4">
         <h3 className="section-heading">SAY HELLO</h3>
         <p>Let's get in touch, shoot me a message!</p>
         <div className="contact-container">

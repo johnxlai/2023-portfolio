@@ -23,7 +23,7 @@ const Portfolio = () => {
   };
 
   return (
-    <section id="portfolio" className="py-10 px-4 text-white bg-teal-950">
+    <section id="portfolio" className="py-10 px-4 text-white bg-secondary">
       <div className="container mx-auto">
         <h3 className="section-heading">Recent Work</h3>
         <p>
