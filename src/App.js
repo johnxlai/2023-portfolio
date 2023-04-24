@@ -51,7 +51,7 @@ function App() {
       <Navbar />
       <Header />
       <About />
-      <Services />
+      {/* <Services /> */}
       <Portfolio />
       <Skills />
       <Experience />
