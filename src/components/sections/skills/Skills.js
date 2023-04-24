@@ -15,7 +15,7 @@ import Skill from './Skill';
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-10 px-4">
+    <section id="skills" className="py-10 px-4 bg-slate-900">
       <div className="container mx-auto"></div>
 
       <Swiper
