@@ -11,8 +11,8 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="header">
-      <div className="header-container container mx-auto px-4 pt-48 pb-20 relative flex flex-col items-center text-center text-white">
+    <header className="header min-h-screen">
+      <div className="header-container container mx-auto px-4 pt-36 lg:pt-48 pb-20 relative flex flex-col items-center text-center text-white">
         <div className="header-profile" data-aos="fade-in">
           <img
             className="mb-6 rounded-full w-[200px]"
@@ -20,16 +20,18 @@ const Header = () => {
             alt="John Lai"
           />
         </div>
-        <h1 className="text-7xl mb-3 uppercase" data-aos="fade-up">
+        <h1
+          className="text-4xl lg:text-7xl mb-2 lg:mb-3 uppercase"
+          data-aos="fade-up">
           John Lai
         </h1>
         <h2
-          className="text-uppercase text-2xl text-md mb-4 typewriter"
+          className="text-uppercase text-1xl lg:text-2xl text-md mb-4 typewriter"
           data-aos="fade-up">
           Full Stack Developer
         </h2>
         <div
-          className="mb-8 lg:w-1/2 text-gray-300 leading-8"
+          className="mb-8 lg:w-1/2 text-gray-100 leading-8 text-shadow"
           data-aos="fade-up">
           <p>
             I’m a Toronto-based Full Stack Developer, a recent graduate from the

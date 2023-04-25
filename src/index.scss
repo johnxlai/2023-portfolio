@@ -54,7 +54,7 @@
 }
 
 body {
-  // background-color: var(--secondary-color);
+  background-color: var(--secondary-color);
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -99,15 +99,21 @@ a {
   background: var(--primary-color);
 }
 
-header.header {
-  background-image:
-  // linear-gradient(to bottom, #ffffff85, rgba(29, 5, 96, 0.73)),
-  //   url('../src/assets/images/stars-treeline-min.jpg');
-    linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.73)),
-    url('../src/assets/images/stars-treeline-min.jpg');
-  background-position: 25% 75%;
-  background-size: cover;
-  background-repeat: no-repeat;
+header {
+  &.header {
+    background-image:
+    // linear-gradient(to bottom, #ffffff85, rgba(29, 5, 96, 0.73)),
+    //   url('../src/assets/images/stars-treeline-min.jpg');
+      linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.73)),
+      url('../src/assets/images/stars-treeline-min.jpg');
+    background-position: 25% 75%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .text-shadow {
+      text-shadow: 2px 2px 6px #000000;
+    }
+  }
 }
 
 .nav-menu {
@@ -122,8 +128,8 @@ header.header {
   top: 5px;
   position: relative;
 }
-
-.navbar {
+//Angled Accent
+.navbar-angled {
   &:after {
     position: absolute;
     content: '';
@@ -136,52 +142,6 @@ header.header {
     transform: skewY(-4deg);
   }
 }
-
-#portfolio {
-  padding: 7rem 1rem 17rem;
-  position: relative;
-
-  &:before {
-    position: absolute;
-    content: '';
-    width: 100vw;
-    height: 10rem;
-    left: 0;
-    top: -90px;
-    background: var(--secondary-color);
-    transform: skewY(-4deg);
-  }
-}
-
-// #skills {
-//   position: relative;
-
-//   &:before {
-//     position: absolute;
-//     content: '';
-//     width: 100vw;
-//     height: 12rem;
-//     left: 0;
-//     top: -90px;
-//     background: var(--primary-color);
-//     transform: skewY(-4deg);
-//   }
-// }
-
-// #contact {
-//   position: relative;
-
-//   &:before {
-//     position: absolute;
-//     content: '';
-//     width: 100vw;
-//     height: 12rem;
-//     left: 0;
-//     top: -90px;
-//     background: var(--secondary-color);
-//     transform: skewY(-4deg);
-//   }
-// }
 
 .angled-accent {
   position: relative;

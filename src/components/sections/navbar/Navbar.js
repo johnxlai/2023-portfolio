@@ -5,7 +5,7 @@ import { IoIosColorPalette } from 'react-icons/io';
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
+    <nav className="navbar navbar-angled">
       <div className="container flex justify-between items-center px-4 xl:px-0 py-8">
         <a href="index.html" className="flex items-center">
           <img
