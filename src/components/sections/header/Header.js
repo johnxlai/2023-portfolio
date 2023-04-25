@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <header className="header min-h-screen">
-      <div className="header-container container mx-auto px-4 pt-36 lg:pt-48 pb-20 relative flex flex-col items-center text-center text-white">
+      <div className="header-container container mx-auto px-4 pt-36 lg:pt-48 pb-12 relative flex flex-col items-center text-center text-white">
         <div className="header-profile" data-aos="fade-in">
           <img
             className="mb-6 rounded-full w-[200px]"

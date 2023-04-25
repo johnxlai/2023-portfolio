@@ -10,6 +10,7 @@ module.exports = {
       },
       fontFamily: {
         roboto: ['Roboto Condensed', 'sans-serif'],
+        openSans: ['Open Sans', 'sans-serif'],
       },
     },
   },

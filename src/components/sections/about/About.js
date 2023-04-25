@@ -9,20 +9,20 @@ const About = () => {
   return (
     <section
       id="about"
-      className="py-20 px-4 bg-black text-center"
+      className="pt-12 pb-[12rem] px-4 bg-black text-center"
       data-aos="fade-in">
       <div className="container mx-auto flex gap-10">
-        <div className="md:w-8/12 mx-auto">
+        <div className="md:w-8/12 lg:w-5/12 mx-auto">
           <h3 className="section-heading text-white mb-7">About Me</h3>
-          <div className="cards grid grid-cols-3 gap-4">
+          <div className="cards grid md:grid-cols-3  gap-4">
             {AboutData.map((card) => {
               return (
                 <Card
                   key={card.id}
-                  className=" flex flex-col justify-center items-center mb-3 p-1 md:px-3 py-8 bg-secondary border-primary border text-primary rounded gap-2">
-                  <span className="text-3xl">{card.icon}</span>
-                  <h5 className="text-lg">{card.title}</h5>
-                  <p>{card.desc}</p>
+                  className=" flex flex-col justify-center items-center mb-3 p-1 md:px-3 py-8 bg-secondary border-primary  text-primary rounded-lg gap-2">
+                  <span className="text-2xl">{card.icon}</span>
+                  <h5 className="text-md font-openSans">{card.title}</h5>
+                  <p className="text-sm text-sky-500">{card.desc}</p>
                 </Card>
               );
             })}
@@ -44,7 +44,7 @@ const About = () => {
             </p>
 
             <a
-              className="flex items-center btn-primary mb-3"
+              className="inline-flex items-center btn-primary mb-3"
               href={CV}
               download>
               <span className="mr-2">Download CV</span>

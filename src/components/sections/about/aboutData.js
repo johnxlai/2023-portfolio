@@ -7,7 +7,7 @@ const aboutData = [
     id: 1,
     icon: <BsFillAwardFill />,
     title: 'Experience',
-    desc: '7+ Front End experience',
+    desc: '7+ Front End Experience',
   },
   {
     id: 2,
@@ -18,8 +18,8 @@ const aboutData = [
   {
     id: 3,
     icon: <BsFillBalloonHeartFill />,
-    title: 'Clients',
-    desc: '100+ Happy Clients',
+    title: 'Roles',
+    desc: 'Design / Front End / Full Stack',
   },
 ];
 
