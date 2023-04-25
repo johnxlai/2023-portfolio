@@ -27,7 +27,7 @@
 
 @layer components {
   .navbar {
-    @apply w-screen h-[4rem] lg:h-[5rem] grid place-items-center fixed top-0 left-0 z-[100] shadow-lg transition ease-in-out delay-150 duration-300;
+    @apply w-screen h-[4rem] lg:h-[5rem] grid place-items-center fixed top-0 left-0 z-[100] transition ease-in-out delay-150 duration-300;
   }
   .btn-primary {
     @apply py-2 px-6 bg-secondary text-primary font-semibold border border-primary rounded-lg shadow-md hover:border-[--tertiary-color] hover:text-[--tertiary-color] hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 transition ease-in-out delay-150 duration-300;
@@ -54,7 +54,7 @@
 }
 
 body {
-  background-color: var(--secondary-color);
+  // background-color: var(--secondary-color);
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -110,12 +110,25 @@ header.header {
   background-repeat: no-repeat;
 }
 
+.nav-menu {
+  padding: 12px;
+  text-transform: uppercase;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  -webkit-backdrop-filter: blur(1rem);
+  backdrop-filter: blur(1rem);
+  transform: rotateZ(-4deg);
+
+  top: 5px;
+  position: relative;
+}
+
 .navbar {
   &:after {
     position: absolute;
     content: '';
     width: 100vw;
-    height: 11rem;
+    height: 10rem;
     z-index: -1;
     left: 0;
     top: -5rem;
