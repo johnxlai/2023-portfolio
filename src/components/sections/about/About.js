@@ -44,7 +44,7 @@ const About = () => {
             </p>
 
             <a
-              className="inline-flex items-center btn-primary mb-3"
+              className="inline-flex items-center btn-tertiary mb-3"
               href={CV}
               download>
               <span className="mr-2">Download CV</span>

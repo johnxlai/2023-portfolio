@@ -11,17 +11,15 @@ const ProjectsCategories = ({ categories, onFilterProjects }) => {
   };
 
   return (
-    <div className="portfolio-categories justify-center flex gap-3 mb-12">
+    <div className="portfolio-categories justify-center flex gap-4 mb-12">
       {categories.map((category) => {
         return (
           <CategoryButton
             key={category}
             category={category}
             onChangeCategory={() => changeCategoryHandler(category)}
-            className={`uppercase font-bold ${
-              activeCategory === category
-                ? 'btn-primary'
-                : 'btn-primary btn-active'
+            className={`uppercase btn-primary py-1 px-4 text-sm ${
+              activeCategory === category ? 'btn-active' : ' '
             }`}
           />
         );
