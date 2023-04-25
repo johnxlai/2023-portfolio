@@ -3,7 +3,7 @@ const data = [
   { id: 2, link: '#portfolio', title: 'portfolio' },
   { id: 3, link: '#skills', title: 'experience' },
   { id: 4, link: '#contact', title: 'contact' },
-  // { id: 5, link: '#contact', title: 'CV' },
+  // { id: 5, link: CV, title: 'CV', target: '_blank' },
 ];
 
 export default data;
