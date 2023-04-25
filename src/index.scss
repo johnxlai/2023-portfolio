@@ -25,10 +25,16 @@
   // $dark-purple: #111441;
 }
 
+//Tailwind combined classes
 @layer components {
   .navbar {
     @apply w-screen h-[4rem] lg:h-[5rem] grid place-items-center fixed top-0 left-0 z-[100] transition ease-in-out delay-150 duration-300;
   }
+
+  .nav-menu-angled {
+    @apply top-[5px] relative p-3 bg-primary backdrop-blur-sm transform rotate-[-4deg];
+  }
+
   .btn-primary {
     @apply py-2 px-6 bg-secondary text-primary font-semibold border border-primary rounded-lg shadow-md hover:border-[--tertiary-color] hover:text-[--tertiary-color] hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 transition ease-in-out delay-150 duration-300;
   }
@@ -69,19 +75,7 @@ h6 {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
 }
-// h1 {
-//   font-size: 3rem;
-// }
-// h2 {
-//   font-size: 2.1rem;
-// }
-// h3 {
-//   font-size: 2rem;
-// }
 
-// h4 {
-//   font-size: 1.5rem;
-// }
 p {
   font-family: 'Open Sans', sans-serif;
 }
@@ -94,11 +88,8 @@ code {
 a {
   transition: var(--transition);
 }
-#floating-nav li.active a {
-  color: #fff;
-  background: var(--primary-color);
-}
 
+//Header section
 header {
   &.header {
     background-image:
@@ -116,18 +107,12 @@ header {
   }
 }
 
-.nav-menu {
-  padding: 12px;
-  text-transform: uppercase;
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
-  -webkit-backdrop-filter: blur(1rem);
-  backdrop-filter: blur(1rem);
-  transform: rotateZ(-4deg);
-
-  top: 5px;
-  position: relative;
+//Floating Nav
+#floating-nav li.active a {
+  color: #fff;
+  background: var(--primary-color);
 }
+
 //Angled Accent
 .navbar-angled {
   &:after {
