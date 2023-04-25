@@ -1,4 +1,4 @@
-import Logo from '../../../assets/images/jlai-logo-2023.svg';
+import Logo from '../../../assets/images/john-lai-logo.svg';
 import NavItems from './navData';
 import React from 'react';
 import { IoIosColorPalette } from 'react-icons/io';
@@ -6,12 +6,12 @@ import { IoIosColorPalette } from 'react-icons/io';
 const Navbar = () => {
   return (
     <nav className="navbar navbar-angled">
-      <div className="container flex justify-between items-center px-4 xl:px-0  py-4 md:py-8">
+      <div className="container flex justify-between items-center px-4 xl:px-0 py-4 md:py-8">
         <a href="index.html" className="flex items-center">
           <img
             src={Logo}
             alt="John Lai's Logo"
-            className="w-[2.5rem] max-w-full mr-4"
+            className="w-[2.6rem] max-w-full mr-3"
           />
           <h2 className="text-white text-xl">JOHN LAI</h2>
         </a>
