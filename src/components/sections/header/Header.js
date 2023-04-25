@@ -33,6 +33,19 @@ const Header = () => {
         <div
           className="mb-8 lg:w-1/2 text-gray-100 leading-8 text-shadow"
           data-aos="fade-up">
+          <ul className="header-social flex flex-col gap-3 absolute -left-12 top-[6px]">
+            {SocialData.map((item) => (
+              <li key={item.id}>
+                <a
+                  className="header-social-icons"
+                  href={item.link}
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  {item.icon}
+                </a>
+              </li>
+            ))}
+          </ul>
           <p>
             I’m a Toronto-based Full Stack Developer, a recent graduate from the
             full time University Of Toronto Bootcamp.
@@ -51,19 +64,6 @@ const Header = () => {
             Recent Work
           </a>
         </div>
-        <ul className="header-social flex flex-col gap-3 absolute left-0 bottom-20">
-          {SocialData.map((item) => (
-            <li key={item.id}>
-              <a
-                className="header-social-icons"
-                href={item.link}
-                target="_blank"
-                rel="noopener noreferrer">
-                {item.icon}
-              </a>
-            </li>
-          ))}
-        </ul>
       </div>
     </header>
   );
