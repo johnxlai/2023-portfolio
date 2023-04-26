@@ -5,11 +5,7 @@ const Project = ({ project }) => {
     <Card className="portfolio bg-gray-50 rounded p-4 text-secondary text-left h-full">
       <div className="flex flex-col gap-3 h-full">
         <div className="max-h-96 overflow-scroll">
-          <img
-            className="mb-2 rounded"
-            src={project.image}
-            alt={project.title}
-          />
+          <img className="mb-2 rounded" src={project.image} alt={project.alt} />
         </div>
         <h4 className="text-2xl uppercase">{project.title}</h4>
 

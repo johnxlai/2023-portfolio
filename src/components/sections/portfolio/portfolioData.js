@@ -12,6 +12,7 @@ const PortfolioData = [
     id: 1,
     category: 'Full Stack',
     image: FingerSpell,
+    alt: 'FingerSpelling Game - Learn ASL',
     title: 'FingerSpelling Game - Learn ASL',
     desc: 'An app for learning how to finger spell with American sign language. The user will be prompt with images of signs in alphabet which will make up of words. And user will then insert an answer to try to guess the word that is shown in sign language.​',
     techStack:
@@ -23,6 +24,7 @@ const PortfolioData = [
     id: 2,
     category: 'Full Stack',
     image: Oracle,
+    alt: 'Oracle - AI Fortune Teller',
     title: 'Oracle - AI Fortune Teller',
     desc: 'Oracle is MERN stack project that incorporates OpenAI to make predictions using Tarot Cards. Web Speech Recognition API to receive user voice inputs, as well as Googles Text-to-Speech API to have a computer-generated voice reading out the prediction results.',
     techStack:
@@ -31,9 +33,10 @@ const PortfolioData = [
     github: 'https://github.com/winglovecola/oracle',
   },
   {
-    id: 2,
+    id: 3,
     category: 'Full Stack',
     image: TechBlog,
+    alt: 'Tech Blog - CMS',
     title: 'Tech Blog - CMS',
     desc: 'A CMS-style blog site that users can publish articles, posts, thoughts and opinions',
     techStack:
@@ -42,9 +45,10 @@ const PortfolioData = [
     github: 'https://github.com/johnxlai/cms-tech-blog',
   },
   {
-    id: 3,
+    id: 4,
     category: 'Front End',
     image: TravelMe,
+    alt: 'Travel Me web application',
     title: 'Travel Me',
     desc: 'An application where a user can choose from the dropdown for a travel destination (country) and see description of country, images and currency exchange rate. The search history its stored in the local storage. Three APIs were used for this project. (Media Wiki, Unsplash, Exchange)',
     techStack: 'JavaScript, HTML, SCSS, Tailwind, Bootstrap Slider, Git',
@@ -52,9 +56,10 @@ const PortfolioData = [
     github: 'https://github.com/johnxlai/travel-app',
   },
   {
-    id: 4,
+    id: 5,
     category: 'Front End',
     image: JavascriptQuiz,
+    alt: 'JavaScript Quiz Challenge application',
     title: 'JavaScript Quiz Challenge',
     desc: 'Javascript Coding Quiz Challage Game is written in vanila Javascript, it uses the localStorage object to store players information at the end of the game.',
     techStack: 'JavaScript, HTML, Bootstrap, Git',
@@ -62,9 +67,10 @@ const PortfolioData = [
     github: 'https://github.com/johnxlai/javascript-code-quiz',
   },
   {
-    id: 5,
+    id: 6,
     category: 'Front End',
     image: TriMacToyota,
+    alt: 'Tri Mac Toyota website',
     title: 'Tri Mac Toyota',
     desc: 'A wordpress website build with Tailwind. This build uses the Carpages API, advanced custom fields, gravity forms, and slick slider.',
     techStack:
@@ -72,9 +78,10 @@ const PortfolioData = [
     demo: 'https://trimactoyota.ca/',
   },
   {
-    id: 6,
+    id: 7,
     category: 'Front End',
     image: GatewayHyundai,
+    alt: 'Gateway Hyundai website',
     title: 'Gateway Hyundai',
     desc: 'A wordpress website build with Bootstrap. This build uses the Carpages API, advanced custom fields, gravity forms',
     techStack:
@@ -82,10 +89,11 @@ const PortfolioData = [
     demo: 'https://gatewayhyundai.ca/',
   },
   {
-    id: 7,
+    id: 8,
     category: 'Front End',
     image: MovieTrivia,
     title: 'Movie Trivia',
+    alt: 'Movie Trivia Game',
     desc: 'A fun game for movie lovers! This app uses the Movie Database API to fetch movie data.',
     techStack: 'JavaScript, Jquery, HTML, CSS, Git',
     demo: 'https://johnlai.ca/movies-trivia/',
