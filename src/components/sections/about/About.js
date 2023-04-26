@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfileImg from '../../../assets/images/john-lai-profile.jpg';
+
 import CV from '../../../assets/resume/john-lai-resume.pdf';
 import { MdDownload } from 'react-icons/md';
 import AboutData from './aboutData';
@@ -24,7 +24,7 @@ const About = () => {
                     {card.number}
                     <span className="text-5xl ml-1">+</span>
                   </h5>
-                  <h4 className="text-sm font-bold font-openSans uppercase mb-3">
+                  <h4 className="text-sm font-bold font-openSans uppercase mb-3 truncate">
                     {card.title}
                   </h4>
                   <p className="text-sm font-bold font-openSans uppercase text-tertiary">
