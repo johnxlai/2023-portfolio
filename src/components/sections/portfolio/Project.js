@@ -28,13 +28,15 @@ const Project = ({ project }) => {
             target="_blank">
             Demo
           </a>
-          <a
-            href={project.github}
-            className="btn-tertiary rounded-lg font-bold"
-            rel="noopener noreferrer"
-            target="_blank">
-            GitHub
-          </a>
+          {project.github && (
+            <a
+              href={project.github}
+              className="btn-tertiary rounded-lg font-bold"
+              rel="noopener noreferrer"
+              target="_blank">
+              GitHub
+            </a>
+          )}
         </div>
       </div>
     </Card>

@@ -74,10 +74,10 @@ const PortfolioData = [
     category: 'Front End',
     image: MovieTrivia,
     title: 'Movie Trivia',
-    desc: 'A',
-    techStack:
-      'Twig, JavaScript, Jquery, HTML, SCSS, Bootstrap, ACF, Gravity Forms, Git',
-    demo: 'https://gatewayhyundai.ca/',
+    desc: 'A fun game for movie lovers! This app uses the Movie Database API to fetch movie data.',
+    techStack: 'JavaScript, Jquery, HTML, CSS, Git',
+    demo: 'https://johnlai.ca/movies-trivia/',
+    github: 'https://github.com/johnxlai/movies-trivia',
   },
 ];
 
