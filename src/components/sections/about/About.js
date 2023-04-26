@@ -9,22 +9,25 @@ const About = () => {
   return (
     <section
       id="about"
-      className="pt-12 pb-[12rem] px-4 bg-black text-center"
+      className="pt-10 pb-[12rem] px-4 bg-black text-center"
       data-aos="fade-in">
       <div className="container mx-auto flex gap-10">
-        <div className="md:w-8/12 lg:w-5/12 mx-auto">
-          <h3 className="section-heading text-white mb-7">About Me</h3>
+        <div className="md:w-9/12 xl:w-5/12  mx-auto">
+          <h3 className="section-heading text-white mb-1">About Me</h3>
           <div className="cards grid md:grid-cols-3 gap-4">
             {AboutData.map((card) => {
               return (
                 <Card
                   key={card.id}
-                  className="flex flex-col justify-center items-center mb-3 p-1 md:px-3 py-8 text-primary rounded-lg">
-                  <h5 className="text-7xl font-openSans">{card.number}</h5>
-                  <h4 className="text-md font-bold font-openSans uppercase mb-3">
+                  className="flex flex-col justify-center items-center mb-3 p-1 md:px-3 py-6 text-primary rounded-lg">
+                  <h5 className="text-7xl font-openSans flex items-center tracking-tight">
+                    {card.number}
+                    <span className="text-5xl ml-1">+</span>
+                  </h5>
+                  <h4 className="text-sm font-bold font-openSans uppercase mb-3">
                     {card.title}
                   </h4>
-                  <p className="text-md font-bold font-openSans uppercase text-tertiary">
+                  <p className="text-sm font-bold font-openSans uppercase text-tertiary">
                     {card.desc}
                   </p>
                 </Card>
@@ -35,16 +38,16 @@ const About = () => {
             <p className="mb-3">
               As a graduate from Creative Advertising at Seneca and Advertising
               & Graphic Design at Humber College, I landed an internship at
-              Normark Inc. (Rapala Canada), where I designed products that are
-              now being sold at chain retailers across Canada such as Le Baron,
-              Canadian Tire, and Wal-Mart.
+              Rapala Canada, where I designed products that were sold at chain
+              retailers across Canada such as Le Baron, Canadian Tire, and
+              Wal-Mart.
             </p>
 
-            <p className="mb-5">
+            <p className="mb-8">
               Upon completion of the internship, I worked as a Web Content
               Designer & SEO Specialist at Jonas Club Software. At Jonas, I’ve
-              worked on over 200 websites, building web content and adjusting
-              layouts using HTML and CSS.
+              worked on over 200 websites, building web content and email
+              templates using HTML and CSS.
             </p>
 
             <a

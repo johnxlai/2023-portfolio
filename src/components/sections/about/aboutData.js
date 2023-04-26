@@ -7,21 +7,22 @@ const aboutData = [
     id: 1,
     icon: <BsFillAwardFill />,
     title: 'Years',
-    number: '7+',
+    number: '7',
     desc: 'Front End Experience',
   },
   {
     id: 2,
     icon: <CgWebsite />,
     title: 'Worked On',
-    number: '300+',
+    number: '300',
     desc: 'Websites',
   },
   {
     id: 3,
     icon: <BsFillBalloonHeartFill />,
-    title: 'Roles',
-    desc: 'Design / Front End / Full Stack',
+    title: 'Years',
+    number: '12',
+    desc: 'Design & Web Development',
   },
 ];
 
