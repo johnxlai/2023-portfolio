@@ -1,5 +1,6 @@
 import FingerSpell from '../../../assets/images/portfolio/fingerspelling.png';
 import Oracle from '../../../assets/images/portfolio/oracle.png';
+import TechBlog from '../../../assets/images/portfolio/the-tech-blog.png';
 import TravelMe from '../../../assets/images/portfolio/travel-me.png';
 import JavascriptQuiz from '../../../assets/images/portfolio/coding-quiz-challenge.png';
 import TriMacToyota from '../../../assets/images/portfolio/tri-mac-toyota.png';
@@ -14,7 +15,7 @@ const PortfolioData = [
     title: 'FingerSpelling Game - Learn ASL',
     desc: 'An app for learning how to finger spell with American sign language. The user will be prompt with images of signs in alphabet which will make up of words. And user will then insert an answer to try to guess the word that is shown in sign language.​',
     techStack:
-      'Node, Express, MySql, JavaScript, HTML, SCSS, Tailwind, Heroku, Git',
+      'Node, Express, MySql, Handlebars, JavaScript, HTML, SCSS, Tailwind, Heroku, Git',
     demo: 'https://asl-fingerspelling-game.herokuapp.com/',
     github: 'https://github.com/johnxlai/asl-fingerspelling-game',
   },
@@ -28,6 +29,17 @@ const PortfolioData = [
       'MongoDB, Express, React, Node, GraphQl, JavaScript, HTML, SCSS, Tailwind, Heroku, Git',
     demo: 'https://oracle-online.herokuapp.com/',
     github: 'https://github.com/winglovecola/oracle',
+  },
+  {
+    id: 2,
+    category: 'Full Stack',
+    image: TechBlog,
+    title: 'Tech Blog - CMS',
+    desc: 'A CMS-style blog site that users can publish articles, posts, thoughts and opinions',
+    techStack:
+      'bcrypt, dotenv, mysql2, connect-session-sequelize, express handlebars, express session, handlebars , Heroku, Git',
+    demo: 'https://thawing-fortress-19300.herokuapp.com/',
+    github: 'https://github.com/johnxlai/cms-tech-blog',
   },
   {
     id: 3,
