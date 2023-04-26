@@ -3,13 +3,14 @@ import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/grid';
-// import 'swiper/css/free-mode';
+import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
-import 'swiper/css/autoplay';
+
+// import 'swiper/css/grid';
+import 'swiper/css/navigation';
 
 // import required modules
-import { Grid, Pagination, Autoplay } from 'swiper';
+import { FreeMode, Pagination, Autoplay, Navigation } from 'swiper';
 
 import SkillsData from './skillsData';
 import Skill from './Skill';
@@ -24,11 +25,15 @@ const Skills = () => {
         <p className="mb-10 w-1/2 mx-auto">
           Technologies, languages and programs that I have experience in.
         </p>
+        {/* {SkillsData.map((skill) => {
+          return (
+            <SwiperSlide key={skill.id}>
+              <Skill skill={skill} />
+            </SwiperSlide>
+          );
+        })} */}
         <Swiper
-          slidesPerView={3}
-          grid={{
-            rows: 2,
-          }}
+          slidesPerView={1}
           spaceBetween={30}
           loop={true}
           freeMode={true}
@@ -36,7 +41,7 @@ const Skills = () => {
           pagination={{
             clickable: true,
           }}
-          modules={[Grid, Pagination]}
+          modules={[Autoplay, FreeMode, Pagination, Navigation]}
           autoplay={true}
           className="mySwiper"
           breakpoints={{
@@ -48,30 +53,21 @@ const Skills = () => {
             // when window width is >= 768px
             768: {
               width: 768,
-              slidesPerView: 2,
+              slidesPerView: 4,
             },
             // when window width is >= 1024px
             1024: {
               width: 1024,
-              slidesPerView: 3,
+              slidesPerView: 6,
             },
           }}>
-          <SwiperSlide>Slide 1</SwiperSlide>
-          <SwiperSlide>Slide 2</SwiperSlide>
-          <SwiperSlide>Slide 3</SwiperSlide>
-          <SwiperSlide>Slide 4</SwiperSlide>
-          <SwiperSlide>Slide 5</SwiperSlide>
-          <SwiperSlide>Slide 6</SwiperSlide>
-          <SwiperSlide>Slide 7</SwiperSlide>
-          <SwiperSlide>Slide 8</SwiperSlide>
-          <SwiperSlide>Slide 9</SwiperSlide>
-          {/* {SkillsData.map((skill) => {
+          {SkillsData.map((skill) => {
             return (
               <SwiperSlide key={skill.id}>
                 <Skill skill={skill} />
               </SwiperSlide>
             );
-          })} */}
+          })}
         </Swiper>
       </div>
     </section>
