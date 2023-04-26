@@ -25,7 +25,7 @@ const Portfolio = () => {
   return (
     <section
       id="portfolio"
-      className="angled-accent pt-16 py-[14rem] px-4 text-white bg-secondary ">
+      className="angled-accent pt-16 py-[14rem] px-4 text-white bg-secondary">
       <div className="container mx-auto text-center relative z-[1]">
         <h3 className="section-heading mb-4">Recent Work</h3>
         <p className="mb-10 w-1/2 mx-auto text-gray-300">
