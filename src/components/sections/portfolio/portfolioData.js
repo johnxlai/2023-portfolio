@@ -37,7 +37,7 @@ const PortfolioData = [
     title: 'Tech Blog - CMS',
     desc: 'A CMS-style blog site that users can publish articles, posts, thoughts and opinions',
     techStack:
-      'bcrypt, dotenv, mysql2, connect-session-sequelize, express handlebars, express session, handlebars , Heroku, Git',
+      'Bcrypt, Dotenv, Mysql2, Sequelize, Express session, Handlebars, Heroku, Git',
     demo: 'https://thawing-fortress-19300.herokuapp.com/',
     github: 'https://github.com/johnxlai/cms-tech-blog',
   },
