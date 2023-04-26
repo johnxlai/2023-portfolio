@@ -158,3 +158,19 @@ header {
 // .section-heading-shadow {
 //   text-shadow: 2px 2px 2px var(--primary-color);
 // }
+
+#about .cards {
+  article:nth-child(2) {
+    h4 {
+      color: var(--tertiary-color);
+      margin-bottom: 0;
+    }
+    h5 {
+      order: 2;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      order: 3;
+    }
+  }
+}

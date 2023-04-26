@@ -14,15 +14,19 @@ const About = () => {
       <div className="container mx-auto flex gap-10">
         <div className="md:w-8/12 lg:w-5/12 mx-auto">
           <h3 className="section-heading text-white mb-7">About Me</h3>
-          <div className="cards grid md:grid-cols-3  gap-4">
+          <div className="cards grid md:grid-cols-3 gap-4">
             {AboutData.map((card) => {
               return (
                 <Card
                   key={card.id}
-                  className=" flex flex-col justify-center items-center mb-3 p-1 md:px-3 py-8 bg-secondary border-primary  text-primary rounded-lg gap-2">
-                  <span className="text-2xl">{card.icon}</span>
-                  <h5 className="text-md font-openSans">{card.title}</h5>
-                  <p className="text-sm text-sky-500">{card.desc}</p>
+                  className="flex flex-col justify-center items-center mb-3 p-1 md:px-3 py-8 text-primary rounded-lg">
+                  <h5 className="text-7xl font-openSans">{card.number}</h5>
+                  <h4 className="text-md font-bold font-openSans uppercase mb-3">
+                    {card.title}
+                  </h4>
+                  <p className="text-md font-bold font-openSans uppercase text-tertiary">
+                    {card.desc}
+                  </p>
                 </Card>
               );
             })}

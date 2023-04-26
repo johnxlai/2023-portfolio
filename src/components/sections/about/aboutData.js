@@ -6,14 +6,16 @@ const aboutData = [
   {
     id: 1,
     icon: <BsFillAwardFill />,
-    title: 'Experience',
-    desc: '7+ Front End Experience',
+    title: 'Years',
+    number: '7+',
+    desc: 'Front End Experience',
   },
   {
     id: 2,
     icon: <CgWebsite />,
-    title: 'Projects',
-    desc: '300+ Websites',
+    title: 'Worked On',
+    number: '300+',
+    desc: 'Websites',
   },
   {
     id: 3,
