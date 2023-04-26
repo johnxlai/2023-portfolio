@@ -4,7 +4,13 @@ const Project = ({ project }) => {
   return (
     <Card className="portfolio bg-gray-50 rounded p-4 text-secondary text-left h-full">
       <div className="flex flex-col gap-3 h-full">
-        <img className="mb-2 rounded" src={project.image} alt={project.title} />
+        <div className="max-h-96 overflow-scroll">
+          <img
+            className="mb-2 rounded"
+            src={project.image}
+            alt={project.title}
+          />
+        </div>
         <h4 className="text-2xl uppercase">{project.title}</h4>
 
         <h6 className="font-openSans text-slate-500 text-sm leading-8">
