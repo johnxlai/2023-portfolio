@@ -19,19 +19,12 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="angled-accent before:bg-primary pt-16 py-[14rem] px-4 bg-primary text-secondary">
+      className="angled-accent before:bg-primary pt-16 py-[16rem] px-4 bg-primary text-secondary">
       <div className="container mx-auto text-center relative z-[1]">
         <h3 className="section-heading mb-4">Tools & Frameworks</h3>
         <p className="mb-10 w-1/2 mx-auto">
           Technologies, languages and programs that I have experience in.
         </p>
-        {/* {SkillsData.map((skill) => {
-          return (
-            <SwiperSlide key={skill.id}>
-              <Skill skill={skill} />
-            </SwiperSlide>
-          );
-        })} */}
         <Swiper
           slidesPerView={1}
           spaceBetween={30}
