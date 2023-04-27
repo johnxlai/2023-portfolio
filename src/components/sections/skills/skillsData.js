@@ -20,6 +20,7 @@ import { AiFillGithub } from 'react-icons/ai';
 import { AiFillGitlab } from 'react-icons/ai';
 import { GrMysql } from 'react-icons/gr';
 import { SiInsomnia } from 'react-icons/si';
+import { SiJest } from 'react-icons/si';
 import { TbBrandNextjs } from 'react-icons/tb';
 
 const skillsData = [
@@ -40,12 +41,13 @@ const skillsData = [
   { id: 15, title: 'MySql', icon: <GrMysql /> },
   { id: 16, title: 'GraphQl', icon: <GrGraphQl /> },
   { id: 17, title: 'Apollo', icon: <SiApollographql /> },
-  { id: 18, title: 'Insomnia', icon: <SiInsomnia /> },
-  { id: 19, title: 'Figma', icon: <FiFigma /> },
-  { id: 20, title: 'Sketch', icon: <AiOutlineSketch /> },
-  { id: 21, title: 'PhotoShop', icon: <SiAdobephotoshop /> },
-  { id: 22, title: 'Illustrator', icon: <SiAdobeillustrator /> },
-  // { id: 23, title: 'NextJs', icon: <TbBrandNextjs /> },
+  { id: 18, title: 'Jest', icon: <SiJest /> },
+  { id: 19, title: 'Insomnia', icon: <SiInsomnia /> },
+  { id: 20, title: 'Figma', icon: <FiFigma /> },
+  { id: 21, title: 'Illustrator', icon: <SiAdobeillustrator /> },
+  { id: 22, title: 'Sketch', icon: <AiOutlineSketch /> },
+  { id: 23, title: 'PhotoShop', icon: <SiAdobephotoshop /> },
+  // { id: 24, title: 'NextJs', icon: <TbBrandNextjs /> },
 ];
 
 export default skillsData;
