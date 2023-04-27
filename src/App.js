@@ -26,7 +26,7 @@ function App() {
 
   // Check if the floating nav should be shown or hidden
   const floatingNavToggleHandler = () => {
-    //check if user is scrolling up or downn at least 20px
+    //check if user is scrolling up or down at least 20px
     if (
       siteYPosition < mainRef?.current?.getBoundingClientRect().y - 20 ||
       siteYPosition > mainRef?.current?.getBoundingClientRect().y + 20
