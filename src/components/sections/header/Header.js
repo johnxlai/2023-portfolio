@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import HeaderImage from '../../../assets/images/john-lai-profile.jpg';
-import SocialData from './socialData';
+import SocialData from '../../social-icons/socialData';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
