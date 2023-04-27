@@ -26,40 +26,40 @@
 }
 
 //Tailwind combined classes
-@layer components {
-  .navbar {
-    @apply w-screen h-[4rem] lg:h-[5rem] grid place-items-center fixed top-0 left-0 z-[100] transition ease-in-out delay-150 duration-300;
-  }
+// @layer components {
+//   .navbar {
+//     @apply w-screen h-[4rem] lg:h-[5rem] grid place-items-center fixed top-0 left-0 z-[100] transition ease-in-out delay-150 duration-300;
+//   }
 
-  .nav-menu-angled {
-    @apply top-[5px] relative p-3 bg-primary backdrop-blur-sm transform rotate-[-4deg];
-  }
+//   .nav-menu-angled {
+//     @apply top-[5px] relative p-3 bg-primary backdrop-blur-sm transform rotate-[-4deg];
+//   }
 
-  .btn-primary {
-    @apply py-2 px-6 bg-secondary font-bold text-primary border border-primary rounded-lg shadow-md hover:border-[--tertiary-color] hover:text-[--tertiary-color] hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 transition ease-in-out delay-150 duration-300;
+//   .btn-primary {
+//     @apply py-2 px-6 bg-secondary font-bold text-primary border border-primary rounded-lg shadow-md hover:border-[--tertiary-color] hover:text-[--tertiary-color] hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 transition ease-in-out delay-150 duration-300;
 
-    &.btn-active {
-      @apply border-[--tertiary-color] text-white bg-tertiary font-bold;
-    }
-  }
+//     &.btn-active {
+//       @apply border-[--tertiary-color] text-white bg-tertiary font-bold;
+//     }
+//   }
 
-  .btn-tertiary {
-    @apply py-2 px-6 bg-secondary font-bold text-tertiary border border-tertiary rounded-lg shadow-md hover:border-[--primary-color] hover:text-[--primary-color] hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 transition ease-in-out delay-150 duration-300;
-  }
-  .section-heading {
-    @apply text-3xl font-bold  uppercase;
-  }
-  .header-social-icons {
-    @apply w-7 aspect-square bg-secondary text-primary rounded hidden lg:grid place-items-center hover:-translate-x-1 hover:bg-tertiary  hover:text-secondary focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 transition ease-in-out delay-150 duration-300;
-  }
-  .theme-transition {
-    @apply transition ease-in-out delay-150 duration-300;
-  }
+//   .btn-tertiary {
+//     @apply py-2 px-6 bg-secondary font-bold text-tertiary border border-tertiary rounded-lg shadow-md hover:border-[--primary-color] hover:text-[--primary-color] hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 transition ease-in-out delay-150 duration-300;
+//   }
+//   .section-heading {
+//     @apply text-3xl font-bold  uppercase;
+//   }
+//   .header-social-icons {
+//     @apply w-7 aspect-square bg-secondary text-primary rounded hidden lg:grid place-items-center hover:-translate-x-1 hover:bg-tertiary  hover:text-secondary focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 transition ease-in-out delay-150 duration-300;
+//   }
+//   .theme-transition {
+//     @apply transition ease-in-out delay-150 duration-300;
+//   }
 
-  .scrollSpy {
-    @apply flex gap-3 bg-black/[0.4] rounded-full px-6 py-3 backdrop-blur-xl;
-  }
-}
+//   .scrollSpy {
+//     @apply flex gap-3 bg-black/[0.4] rounded-full px-6 py-3 backdrop-blur-xl;
+//   }
+// }
 
 * {
   box-sizing: border-box;

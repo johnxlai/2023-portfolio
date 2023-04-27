@@ -25,6 +25,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+
         {/* <button id="theme-icon" className="text-white cursor-pointer text-3xl">
           <IoIosColorPalette />
         </button> */}
