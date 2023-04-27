@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/2023-portfolio/static/css/main.2f9ef9bb.css",
-    "main.js": "/2023-portfolio/static/js/main.d828e919.js",
+    "main.css": "/2023-portfolio/static/css/main.1e91a92d.css",
+    "main.js": "/2023-portfolio/static/js/main.160b95f1.js",
     "static/js/787.c9a8e41b.chunk.js": "/2023-portfolio/static/js/787.c9a8e41b.chunk.js",
     "static/media/stars-treeline-min.jpg": "/2023-portfolio/static/media/stars-treeline-min.71878610537b33684eac.jpg",
     "static/media/oracle.png": "/2023-portfolio/static/media/oracle.ff4ebc9113ae70eeccf3.png",
@@ -13,14 +13,14 @@
     "static/media/coding-quiz-challenge.png": "/2023-portfolio/static/media/coding-quiz-challenge.9eb45f2fa6b9fcffaa52.png",
     "static/media/fingerspelling.png": "/2023-portfolio/static/media/fingerspelling.4711a9bd4a6a52ab82e0.png",
     "static/media/movie-trivia.jpg": "/2023-portfolio/static/media/movie-trivia.014b97fc360faa2a187a.jpg",
-    "index.html": "/2023-portfolio/index.html",
     "static/media/john-lai-logo.svg": "/2023-portfolio/static/media/john-lai-logo.52f7b353bd0b3b6ae31c79555496e9e4.svg",
-    "main.2f9ef9bb.css.map": "/2023-portfolio/static/css/main.2f9ef9bb.css.map",
-    "main.d828e919.js.map": "/2023-portfolio/static/js/main.d828e919.js.map",
+    "index.html": "/2023-portfolio/index.html",
+    "main.1e91a92d.css.map": "/2023-portfolio/static/css/main.1e91a92d.css.map",
+    "main.160b95f1.js.map": "/2023-portfolio/static/js/main.160b95f1.js.map",
     "787.c9a8e41b.chunk.js.map": "/2023-portfolio/static/js/787.c9a8e41b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f9ef9bb.css",
-    "static/js/main.d828e919.js"
+    "static/css/main.1e91a92d.css",
+    "static/js/main.160b95f1.js"
   ]
 }
