@@ -141,7 +141,8 @@ header {
     transform: skewY(-4deg);
 
     @media (min-width: 768px) {
-      height: 10rem;
+      height: 12rem;
+      top: -7rem;
     }
   }
 }
