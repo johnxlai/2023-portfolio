@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/2023-portfolio/static/css/main.95889b99.css",
+    "main.css": "/2023-portfolio/static/css/main.4347b239.css",
     "main.js": "/2023-portfolio/static/js/main.d828e919.js",
     "static/js/787.c9a8e41b.chunk.js": "/2023-portfolio/static/js/787.c9a8e41b.chunk.js",
     "static/media/stars-treeline-min.jpg": "/2023-portfolio/static/media/stars-treeline-min.71878610537b33684eac.jpg",
@@ -15,12 +15,12 @@
     "static/media/movie-trivia.jpg": "/2023-portfolio/static/media/movie-trivia.014b97fc360faa2a187a.jpg",
     "index.html": "/2023-portfolio/index.html",
     "static/media/john-lai-logo.svg": "/2023-portfolio/static/media/john-lai-logo.52f7b353bd0b3b6ae31c79555496e9e4.svg",
-    "main.95889b99.css.map": "/2023-portfolio/static/css/main.95889b99.css.map",
+    "main.4347b239.css.map": "/2023-portfolio/static/css/main.4347b239.css.map",
     "main.d828e919.js.map": "/2023-portfolio/static/js/main.d828e919.js.map",
     "787.c9a8e41b.chunk.js.map": "/2023-portfolio/static/js/787.c9a8e41b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.95889b99.css",
+    "static/css/main.4347b239.css",
     "static/js/main.d828e919.js"
   ]
 }
