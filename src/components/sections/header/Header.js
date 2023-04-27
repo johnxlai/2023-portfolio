@@ -12,10 +12,10 @@ const Header = () => {
 
   return (
     <header className="header min-h-screen">
-      <div className="header-container container mx-auto px-4 pt-36 lg:pt-48 pb-12 relative flex flex-col items-center text-center text-white">
+      <div className="header-container container mx-auto px-4 pt-28 md:pt-36 lg:pt-48 pb-12 relative flex flex-col items-center text-center text-white">
         <div className="header-profile" data-aos="fade-in">
           <img
-            className="mb-6 rounded-full w-[200px]"
+            className="mb-6 rounded-full w-[100px] md:w-[200px]"
             src={HeaderImage}
             alt="John Lai"
           />
@@ -31,7 +31,7 @@ const Header = () => {
           Full Stack Developer
         </h2>
         <div
-          className="mb-8 lg:w-1/2 text-gray-100 leading-8 text-shadow"
+          className="mb-8 lg:w-1/2 text-gray-100 text-shadow"
           data-aos="fade-up">
           <ul className="header-social flex flex-col gap-3 absolute -left-14 top-[6px]">
             {SocialData.map((item) => (
