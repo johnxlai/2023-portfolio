@@ -11,7 +11,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="header min-h-screen">
+    <header id="header" className="header min-h-screen">
       <div className="header-container container mx-auto px-4 pt-28 md:pt-36 lg:pt-48 pb-12 relative flex flex-col items-center text-center text-white">
         <div className="header-profile" data-aos="fade-in">
           <img
