@@ -7,7 +7,7 @@
 @import 'animate.css';
 
 @import './styles/swiper.scss';
-@import './styles/custom.scss';
+@import './styles/custom-animation.scss';
 
 // primary
 :root {
@@ -33,6 +33,7 @@
 
   .nav-menu-angled {
     @apply top-[5px] relative p-3 bg-primary backdrop-blur-sm transform;
+    //not sure tailwind doesnt work with this
     transform: rotate(-4deg);
   }
 
@@ -58,7 +59,7 @@
   }
 
   .scrollSpy {
-    @apply flex gap-3 bg-black/[0.4] rounded-full px-6 py-3 backdrop-blur-xl;
+    @apply flex gap-3 bg-black/[0.4] rounded-full px-4 py-2 backdrop-blur-xl;
   }
 }
 
