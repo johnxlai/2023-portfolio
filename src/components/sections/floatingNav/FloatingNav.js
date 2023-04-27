@@ -6,7 +6,7 @@ const FloatingNav = () => {
   return (
     <section
       id="floating-nav"
-      className="flex items-center fixed bottom-[3rem] left-[50%] -translate-x-1/2 z-50 lg:hidden">
+      className="flex items-center fixed bottom-[3rem] left-[50%] -translate-x-1/2 z-[100]">
       <Scrollspy
         className="scrollSpy"
         items={['header', 'about', 'portfolio', 'skills', 'contact']}
