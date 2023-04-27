@@ -43,11 +43,15 @@ const About = () => {
               Wal-Mart.
             </p>
 
-            <p className="mb-8">
+            <p className="mb-3">
               Upon completion of the internship, I worked as a Web Content
               Designer & SEO Specialist at Jonas Club Software. At Jonas, I’ve
               worked on over 200 websites, building web content and email
               templates using HTML and CSS.
+            </p>
+
+            <p className="mb-8">
+              I enjoy camping, fishing and playing soccer in my spare time.
             </p>
 
             <a

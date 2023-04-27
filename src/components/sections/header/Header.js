@@ -26,7 +26,7 @@ const Header = () => {
           John Lai
         </h1>
         <h2
-          className="text-uppercase text-1xl lg:text-2xl text-md mb-4 typewriter"
+          className="text-uppercase text-xl lg:text-2xl mb-4 typewriter"
           data-aos="fade-up">
           Full Stack Developer
         </h2>
@@ -51,9 +51,9 @@ const Header = () => {
             full time University Of Toronto Bootcamp.
           </p>
           <p>
-            I worked as a Front-End Developer at Carpages.ca where I've worked
-            on over 300 websites converting photoshop, sketch and figma mockup
-            to wordpress site using bootstrap and tailwind.
+            Prior to UOFT, I was a Front-End Developer at Carpages.ca where I've
+            worked on over 300 websites converting photoshop, sketch and figma
+            mockup to wordpress site using bootstrap, gemini and tailwind.
           </p>
         </div>
         <div className="flex gap-3" data-aos="fade-up">

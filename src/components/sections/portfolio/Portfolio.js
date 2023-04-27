@@ -29,8 +29,8 @@ const Portfolio = () => {
       <div className="container mx-auto text-center relative z-[1]">
         <h3 className="section-heading mb-4">Recent Work</h3>
         <p className="mb-10 w-1/2 mx-auto text-gray-300">
-          Take a look at some of the projects I've recently completed for my
-          clients.
+          Take a look at some of the projects I've recently completed for fun
+          and my clients.
         </p>
         <div className="portfolio-container">
           <ProjectsCategories

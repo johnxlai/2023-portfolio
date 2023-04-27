@@ -10,9 +10,9 @@ const Contact = () => {
       id="contact"
       className="angled-accent px-4 bg-secondary z-10"
       data-aos="fade-up">
-      <div className="container  mx-auto md:w-1/2 lg:w-1/4 text-primary border border-primary p-8 relative z-10">
+      <div className="container mx-auto md:w-1/2 lg:w-1/4 text-primary border border-primary p-8 relative z-10">
         <h3 className="section-heading text-white mb-2">SAY HELLO</h3>
-        <p className="mb-4 text-gray-300">
+        <p className="mb-4 text-gray-100">
           Let's get in touch, shoot me a message!
         </p>
         <div className="mb-5">
@@ -41,7 +41,7 @@ const Contact = () => {
             );
           })}
           <li>
-            <a className="hover:text-tertiary" href={CV} download>
+            <a className="hover:text-tertiary text-tertiary" href={CV} download>
               <BsFiletypeDocx size={20} />
             </a>
           </li>
