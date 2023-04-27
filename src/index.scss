@@ -32,7 +32,8 @@
   }
 
   .nav-menu-angled {
-    @apply top-[5px] relative p-3 bg-primary backdrop-blur-sm transform rotate-[-4deg];
+    @apply top-[5px] relative p-3 bg-primary backdrop-blur-sm transform;
+    transform: rotate(-4deg);
   }
 
   .btn-primary {

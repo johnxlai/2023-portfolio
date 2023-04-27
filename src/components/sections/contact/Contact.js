@@ -41,7 +41,7 @@ const Contact = () => {
             );
           })}
           <li>
-            <a className="hover:text-tertiary text-tertiary" href={CV} download>
+            <a className="hover:text-tertiary" href={CV} download>
               <BsFiletypeDocx size={20} />
             </a>
           </li>
