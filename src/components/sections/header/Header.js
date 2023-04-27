@@ -33,7 +33,7 @@ const Header = () => {
         <div
           className="mb-8 lg:w-1/2 text-gray-100 leading-8 text-shadow"
           data-aos="fade-up">
-          <ul className="header-social flex flex-col gap-3 absolute -left-12 top-[6px]">
+          <ul className="header-social flex flex-col gap-3 absolute -left-14 top-[6px]">
             {SocialData.map((item) => (
               <li key={item.id}>
                 <a

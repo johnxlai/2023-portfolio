@@ -1,6 +1,8 @@
 import React from 'react';
 import ContactData from './contactData';
 import SocialIcons from '../../social-icons/socialData';
+import CV from '../../../assets/resume/john-lai-resume.pdf';
+import { BsFiletypeDocx } from 'react-icons/bs';
 
 const Contact = () => {
   return (
@@ -18,7 +20,7 @@ const Contact = () => {
             return (
               <a
                 key={contact.id}
-                className="flex items-center mb-3"
+                className="flex items-center mb-3 hover:text-tertiary"
                 href={contact.link}
                 target="_blank"
                 rel="noopener noreferrer">
@@ -32,12 +34,17 @@ const Contact = () => {
           {SocialIcons.map((icon) => {
             return (
               <li key={icon.id}>
-                <a href={icon.link} className="">
+                <a href={icon.link} className="hover:text-tertiary">
                   {icon.icon}
                 </a>
               </li>
             );
           })}
+          <li>
+            <a className="hover:text-tertiary" href={CV} download>
+              <BsFiletypeDocx size={20} />
+            </a>
+          </li>
         </ul>
       </div>
     </section>
