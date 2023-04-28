@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/2023-portfolio/static/css/main.492342c6.css",
-    "main.js": "/2023-portfolio/static/js/main.ebb6ff60.js",
+    "main.js": "/2023-portfolio/static/js/main.be58cd06.js",
     "static/js/787.c9a8e41b.chunk.js": "/2023-portfolio/static/js/787.c9a8e41b.chunk.js",
     "static/media/stars-treeline-min.jpg": "/2023-portfolio/static/media/stars-treeline-min.71878610537b33684eac.jpg",
     "static/media/oracle.png": "/2023-portfolio/static/media/oracle.ff4ebc9113ae70eeccf3.png",
@@ -16,11 +16,11 @@
     "static/media/john-lai-logo.svg": "/2023-portfolio/static/media/john-lai-logo.52f7b353bd0b3b6ae31c79555496e9e4.svg",
     "index.html": "/2023-portfolio/index.html",
     "main.492342c6.css.map": "/2023-portfolio/static/css/main.492342c6.css.map",
-    "main.ebb6ff60.js.map": "/2023-portfolio/static/js/main.ebb6ff60.js.map",
+    "main.be58cd06.js.map": "/2023-portfolio/static/js/main.be58cd06.js.map",
     "787.c9a8e41b.chunk.js.map": "/2023-portfolio/static/js/787.c9a8e41b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.492342c6.css",
-    "static/js/main.ebb6ff60.js"
+    "static/js/main.be58cd06.js"
   ]
 }
