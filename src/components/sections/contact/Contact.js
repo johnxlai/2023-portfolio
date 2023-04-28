@@ -34,7 +34,11 @@ const Contact = () => {
           {SocialIcons.map((icon) => {
             return (
               <li key={icon.id}>
-                <a href={icon.link} className="hover:text-tertiary">
+                <a
+                  href={icon.link}
+                  className="hover:text-tertiary"
+                  target="_blank"
+                  rel="noopener noreferrer">
                   {icon.icon}
                 </a>
               </li>
