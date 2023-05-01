@@ -4,7 +4,7 @@ import { AiFillGithub } from 'react-icons/ai';
 const data = [
   {
     id: 1,
-    link: 'https://www.linkedin.com/in/johnxlai',
+    link: 'https://ca.linkedin.com/in/johnxlai',
     icon: <AiFillLinkedin size={20} />,
   },
   {
