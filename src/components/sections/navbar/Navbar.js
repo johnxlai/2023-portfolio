@@ -19,7 +19,10 @@ const Navbar = () => {
         <ul className="nav-menu nav-menu-angled hidden lg:flex gap-3 text-secondary uppercase font-bold font-roboto">
           {NavItems.map((item) => (
             <li key={item.id}>
-              <a className="hover:text-tertiary" href={item.link}>
+              <a
+                className="hover:text-tertiary"
+                href={item.link}
+                target={item.target}>
                 {item.title}
               </a>
             </li>
