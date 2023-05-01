@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/2023-portfolio/static/css/main.492342c6.css",
-    "main.js": "/2023-portfolio/static/js/main.44df12a2.js",
+    "main.js": "/2023-portfolio/static/js/main.18b79543.js",
     "static/js/787.c9a8e41b.chunk.js": "/2023-portfolio/static/js/787.c9a8e41b.chunk.js",
     "static/media/stars-treeline-min.jpg": "/2023-portfolio/static/media/stars-treeline-min.71878610537b33684eac.jpg",
     "static/media/oracle.png": "/2023-portfolio/static/media/oracle.ff4ebc9113ae70eeccf3.png",
     "static/media/gateway-hyundai.jpg": "/2023-portfolio/static/media/gateway-hyundai.f38ce68bf1adbf072324.jpg",
     "static/media/tri-mac-toyota.png": "/2023-portfolio/static/media/tri-mac-toyota.7fc47c4536fb08e2100c.png",
-    "static/media/john-lai-resume.pdf": "/2023-portfolio/static/media/john-lai-resume.d1a948cb8a3398ff4983.pdf",
     "static/media/travel-me.png": "/2023-portfolio/static/media/travel-me.2e495df50dccd539ebe5.png",
     "static/media/the-tech-blog.png": "/2023-portfolio/static/media/the-tech-blog.78d6ccd191a487a57a64.png",
+    "static/media/john-lai-resume.pdf": "/2023-portfolio/static/media/john-lai-resume.f6dbaaf11813492dcf05.pdf",
     "static/media/coding-quiz-challenge.png": "/2023-portfolio/static/media/coding-quiz-challenge.9eb45f2fa6b9fcffaa52.png",
     "static/media/fingerspelling.png": "/2023-portfolio/static/media/fingerspelling.4711a9bd4a6a52ab82e0.png",
     "static/media/movie-trivia.jpg": "/2023-portfolio/static/media/movie-trivia.014b97fc360faa2a187a.jpg",
     "static/media/john-lai-logo.svg": "/2023-portfolio/static/media/john-lai-logo.52f7b353bd0b3b6ae31c79555496e9e4.svg",
     "index.html": "/2023-portfolio/index.html",
     "main.492342c6.css.map": "/2023-portfolio/static/css/main.492342c6.css.map",
-    "main.44df12a2.js.map": "/2023-portfolio/static/js/main.44df12a2.js.map",
+    "main.18b79543.js.map": "/2023-portfolio/static/js/main.18b79543.js.map",
     "787.c9a8e41b.chunk.js.map": "/2023-portfolio/static/js/787.c9a8e41b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.492342c6.css",
-    "static/js/main.44df12a2.js"
+    "static/js/main.18b79543.js"
   ]
 }
