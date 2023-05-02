@@ -4,8 +4,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
-import { Pagination } from 'swiper';
+import { Pagination, Navigation } from 'swiper';
 
 const Projects = ({ projects }) => {
   return (
@@ -15,8 +16,10 @@ const Projects = ({ projects }) => {
       pagination={{
         clickable: true,
       }}
-      modules={[Pagination]}
-      className="mySwiper portfolio-projects items-start">
+      navigation={true}
+      modules={[Pagination, Navigation]}
+      className="mySwiper portfolio-projects items-start"
+      data-aos="fade-up">
       {projects.map((project) => (
         <SwiperSlide>
           <Project key={project.id} project={project} />
