@@ -10,6 +10,10 @@
 
 .swiper-pagination-bullet {
   background-color: var(--tertiary-color) !important;
+  border-radius: 0% !important;
+}
+.swiper-pagination-bullet-active {
+  width: 15px !important;
 }
 
 // equal height for all slides
