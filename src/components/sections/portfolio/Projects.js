@@ -38,8 +38,8 @@ const Projects = ({ projects }) => {
         },
       }}>
       {projects.map((project) => (
-        <SwiperSlide>
-          <Project key={project.id} project={project} />
+        <SwiperSlide key={project.id}>
+          <Project project={project} />
         </SwiperSlide>
       ))}
     </Swiper>
@@ -47,7 +47,7 @@ const Projects = ({ projects }) => {
     //   className="portfolio-projects grid md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-10 items-start"
     //   data-aos="fade-up">
     //   {/* {projects.map((project) => (
-    //     <Project key={project.id} project={project} />
+    //     <Project  project={project} />
     //   ))} */}
     // </div>
   );
