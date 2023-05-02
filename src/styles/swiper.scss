@@ -10,4 +10,15 @@
 
 .swiper-pagination-bullet {
   background-color: var(--tertiary-color) !important;
+  border-radius: 0.5rem !important;
+}
+.swiper-pagination-bullet-active {
+  width: 15px !important;
+}
+
+// equal height for all slides
+.portfolio-projects {
+  .swiper-slide {
+    height: auto !important;
+  }
 }
