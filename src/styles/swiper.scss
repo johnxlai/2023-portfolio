@@ -11,3 +11,10 @@
 .swiper-pagination-bullet {
   background-color: var(--tertiary-color) !important;
 }
+
+// equal height for all slides
+.portfolio-projects {
+  .swiper-slide {
+    height: auto !important;
+  }
+}

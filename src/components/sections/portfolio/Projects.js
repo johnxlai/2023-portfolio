@@ -18,7 +18,7 @@ const Projects = ({ projects }) => {
       }}
       navigation={true}
       modules={[Pagination, Navigation]}
-      className="mySwiper portfolio-projects items-start"
+      className="mySwiper portfolio-projects items-start flex bg-primary"
       data-aos="fade-up"
       breakpoints={{
         // when window width is >= 640px

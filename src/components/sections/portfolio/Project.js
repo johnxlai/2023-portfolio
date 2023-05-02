@@ -2,7 +2,7 @@ import Card from '../../card/Card';
 
 const Project = ({ project }) => {
   return (
-    <Card className="portfolio bg-gray-50 rounded p-4 text-secondary text-left h-full">
+    <Card className="portfolio bg-gray-50 rounded p-4 text-secondary text-left h-full flex">
       <div className="flex flex-col gap-3 h-full">
         <div className="max-h-96 overflow-scroll">
           <img className="mb-2 rounded" src={project.image} alt={project.alt} />
