@@ -7,6 +7,8 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 import { Pagination, Navigation } from 'swiper';
+import { BsFillArrowLeftSquareFill } from 'react-icons/bs';
+import { BsFillArrowRightSquareFill } from 'react-icons/bs';
 
 const Projects = ({ projects }) => {
   return (
