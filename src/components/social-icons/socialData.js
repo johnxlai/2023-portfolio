@@ -1,5 +1,4 @@
-import { AiFillLinkedin } from 'react-icons/ai';
-import { AiFillGithub } from 'react-icons/ai';
+import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 
 const data = [
   {

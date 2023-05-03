@@ -1,8 +1,7 @@
 import { AiFillHome } from 'react-icons/ai';
-import { BsFillPersonFill } from 'react-icons/bs';
+import { BsFillPersonFill, BsTools } from 'react-icons/bs';
 import { FaSuitcase } from 'react-icons/fa';
 import { TbMessageCircle2Filled } from 'react-icons/tb';
-import { BsTools } from 'react-icons/bs';
 
 const data = [
   { id: 1, link: '#header', icon: <AiFillHome /> },
