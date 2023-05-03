@@ -4,10 +4,40 @@
   // may need for firefox
   // height: 30rem;
 }
-// .swiper-pagination {
-//   bottom: -33px;
-// }
 
+.portfolio-projects {
+  .swiper-wrapper {
+    margin-bottom: 12px;
+  }
+  // Arrows for Swiper
+  .swiper-button-prev {
+    left: 0px !important;
+  }
+  .swiper-button-next {
+    right: 0px !important;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: initial !important;
+    bottom: 0px !important;
+    background-color: rgba(#fe53bb, 0.5) !important;
+    padding: 20px;
+    color: var(--primary-color) !important;
+    fill: var(--primary-color) !important;
+    stroke: var(--primary-color) !important;
+    border-radius: 0.25rem;
+
+    &:after {
+      font-size: 1rem !important;
+    }
+  }
+
+  .swiper-pagination {
+    width: 80% !important;
+    left: 10% !important;
+  }
+}
 .swiper-pagination-bullet {
   background-color: var(--tertiary-color) !important;
   border-radius: 0.5rem !important;
