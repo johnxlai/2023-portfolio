@@ -1,9 +1,6 @@
 # John Lai's React Portfolio
 ![License Badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
-## User Story
-As an employer looking for candidates with experience building single-page applications. I want to view a potential employee's deployed React portfolio of work samples so that I can assess whether they're a good candidate for an open position
-
 ## Description
 * This is John Lai a Full Stack Developer's portfolio site.
 * This project uses Tailwind and custom scss for styling.
@@ -44,7 +41,7 @@ To push and display final layout in staging or in production, run npm deploy.
 ![Screenshot](./src/assets/images/john-lai-react-portfolio.png)
 
 ## Live Site
-https://johnxlai.github.io/2023-portfolio/
+https://johnlai.ca
 
 ## Repo
 https://github.com/johnxlai/2023-portfolio
