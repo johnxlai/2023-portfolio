@@ -1,26 +1,29 @@
-import { AiFillHtml5 } from 'react-icons/ai';
-import { FaCss3Alt } from 'react-icons/fa';
-import { SiTailwindcss } from 'react-icons/si';
-import { SiJavascript } from 'react-icons/si';
-import { FaReact } from 'react-icons/fa';
-import { FaNodeJs } from 'react-icons/fa';
-import { GrGraphQl } from 'react-icons/gr';
-import { DiNpm } from 'react-icons/di';
-import { SiApollographql } from 'react-icons/si';
-import { SiAdobephotoshop } from 'react-icons/si';
-import { SiAdobeillustrator } from 'react-icons/si';
-import { SiMongodb } from 'react-icons/si';
+import {
+  AiFillHtml5,
+  AiOutlineSketch,
+  AiFillGithub,
+  AiFillGitlab,
+} from 'react-icons/ai';
+
+import {
+  SiApollographql,
+  SiAdobephotoshop,
+  SiAdobeillustrator,
+  SiMongodb,
+  SiTailwindcss,
+  SiJavascript,
+  SiHandlebarsdotjs,
+  SiInsomnia,
+  SiWebpack,
+  SiJest,
+} from 'react-icons/si';
+
+import { FaCss3Alt, FaReact, FaNodeJs } from 'react-icons/fa';
+
+import { GrGraphQl, GrMysql } from 'react-icons/gr';
+import { DiNpm, DiHeroku } from 'react-icons/di';
 import { FiFigma } from 'react-icons/fi';
-import { AiOutlineSketch } from 'react-icons/ai';
 import { BsFillBootstrapFill } from 'react-icons/bs';
-import { SiHandlebarsdotjs } from 'react-icons/si';
-import { DiHeroku } from 'react-icons/di';
-import { SiWebpack } from 'react-icons/si';
-import { AiFillGithub } from 'react-icons/ai';
-import { AiFillGitlab } from 'react-icons/ai';
-import { GrMysql } from 'react-icons/gr';
-import { SiInsomnia } from 'react-icons/si';
-import { SiJest } from 'react-icons/si';
 import { TbBrandNextjs } from 'react-icons/tb';
 
 const skillsData = [
