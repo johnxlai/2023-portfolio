@@ -22,7 +22,7 @@ const Skills = () => {
       className="angled-accent before:bg-primary pt-16 py-[16rem] px-4 bg-primary text-secondary">
       <div className="container mx-auto text-center relative z-[1]">
         <h3 className="section-heading mb-4">Tools & Frameworks</h3>
-        <p className="mb-10 w-1/2 mx-auto">
+        <p className="mb-10 md:w-1/2 mx-auto text-sm md:text-base">
           Technologies, languages and programs that I have experience in.
         </p>
         <Swiper

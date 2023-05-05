@@ -28,7 +28,7 @@ const Portfolio = () => {
       className="angled-accent pt-16 py-[14rem] px-4 text-white bg-secondary">
       <div className="container mx-auto text-center relative z-[1]">
         <h3 className="section-heading mb-4">Recent Work</h3>
-        <p className="mb-10 w-1/2 mx-auto text-gray-300">
+        <p className="mb-10 md:w-1/2 mx-auto text-gray-300 text-sm md:text-base">
           Take a look at some of the projects I've recently completed for fun
           and my clients.
         </p>

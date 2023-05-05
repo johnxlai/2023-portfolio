@@ -15,7 +15,7 @@ const Project = ({ project }) => {
           </span>
           {project.techStack}
         </h6>
-        <p className="mb-2">{project.desc}</p>
+        <p className="mb-2 text-sm md:text-base">{project.desc}</p>
         <div className="flex gap-3 mt-auto">
           <a
             href={project.demo}
