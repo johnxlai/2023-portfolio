@@ -34,16 +34,16 @@ const PortfolioData = [
   },
   {
     id: 3,
-    category: 'Full Stack',
-    image: TechBlog,
-    alt: 'Tech Blog - CMS',
-    title: 'Tech Blog - CMS',
-    desc: 'A CMS-style blog site that users can publish articles, posts, thoughts and opinions',
+    category: 'Front End',
+    image: TriMacToyota,
+    alt: 'Tri Mac Toyota website',
+    title: 'Tri Mac Toyota',
+    desc: 'A wordpress website build with Tailwind. This build uses the Carpages API, advanced custom fields, gravity forms, and slick slider.',
     techStack:
-      'Bcrypt, Dotenv, Mysql2, Sequelize, Express session, Handlebars, Heroku, Git',
-    demo: 'https://cms-tech-blog-new.herokuapp.com/',
-    github: 'https://github.com/johnxlai/cms-tech-blog',
+      'Twig, JavaScript, Jquery, HTML, SCSS, Tailwind, ACF, Gravity Forms, Git',
+    demo: 'https://trimactoyota.ca/',
   },
+
   {
     id: 4,
     category: 'Front End',
@@ -68,14 +68,15 @@ const PortfolioData = [
   },
   {
     id: 6,
-    category: 'Front End',
-    image: TriMacToyota,
-    alt: 'Tri Mac Toyota website',
-    title: 'Tri Mac Toyota',
-    desc: 'A wordpress website build with Tailwind. This build uses the Carpages API, advanced custom fields, gravity forms, and slick slider.',
+    category: 'Full Stack',
+    image: TechBlog,
+    alt: 'Tech Blog - CMS',
+    title: 'Tech Blog - CMS',
+    desc: 'A CMS-style blog site that users can publish articles, posts, thoughts and opinions',
     techStack:
-      'Twig, JavaScript, Jquery, HTML, SCSS, Tailwind, ACF, Gravity Forms, Git',
-    demo: 'https://trimactoyota.ca/',
+      'Bcrypt, Dotenv, Mysql2, Sequelize, Express session, Handlebars, Heroku, Git',
+    demo: 'https://cms-tech-blog-new.herokuapp.com/',
+    github: 'https://github.com/johnxlai/cms-tech-blog',
   },
   {
     id: 7,

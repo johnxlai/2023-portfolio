@@ -47,11 +47,16 @@ const About = () => {
               Upon completion of the internship, I worked as a Web Content
               Designer & SEO Specialist at Jonas Club Software. At Jonas, I’ve
               worked on over 200 websites, building web content and email
-              templates using HTML and CSS.
+              templates using HTML and CSS. This is where I discovered my
+              interest in web development.
             </p>
 
             <p className="mb-8">
-              I enjoy camping, fishing and playing soccer in my spare time.
+              I started my Front-End Development journey at Carpages.ca where I
+              architected, built, and maintained over 300+ websites using
+              JavaScript, jQuery, Gemini (in-house framework), Bootstrap,
+              Tailwind, Photoshop and Figma. At Carpages, I utilized the
+              in-house and third-party APIs to optimized website content.
             </p>
 
             <a

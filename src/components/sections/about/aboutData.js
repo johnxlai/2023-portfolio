@@ -21,7 +21,7 @@ const aboutData = [
     id: 3,
     icon: <BsFillBalloonHeartFill />,
     title: 'Years',
-    number: '12',
+    number: '10',
     desc: 'Design & Web Development',
   },
 ];

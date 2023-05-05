@@ -46,14 +46,16 @@ const Header = () => {
               </li>
             ))}
           </ul>
-          <p>
-            I’m a Toronto-based Full Stack Developer, a recent graduate from the
-            full time University Of Toronto Bootcamp.
+          <p className="mb-3">
+            Full Stack Web Developer with 7+ years in Front-End development and
+            Design. Experienced with integrating creativity and solution to
+            build mobile driven and user-friendly applications.
           </p>
+
           <p>
-            Prior to UOFT, I was a Front-End Developer at Carpages.ca where I've
-            worked on over 300 websites converting photoshop, sketch and figma
-            mockup to wordpress site using bootstrap, gemini and tailwind.
+            Great attention to details and unwavering commitment to precision,
+            even when working on highly complex projects. Outside of work, enjoy
+            camping, fishing, and playing soccer competitively.
           </p>
         </div>
         <div className="flex gap-3" data-aos="fade-up">
