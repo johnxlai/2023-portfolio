@@ -54,8 +54,8 @@ const Header = () => {
 
           <p>
             Great attention to details and unwavering commitment to precision,
-            even when working on highly complex projects. Outside of work, enjoy
-            camping, fishing, and playing soccer competitively.
+            even when working on highly complex projects. Outside of work, I
+            enjoy camping, fishing, and playing soccer competitively.
           </p>
         </div>
         <div className="flex gap-3" data-aos="fade-up">
