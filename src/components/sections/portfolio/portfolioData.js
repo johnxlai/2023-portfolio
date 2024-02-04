@@ -29,7 +29,7 @@ const PortfolioData = [
     desc: 'Oracle is MERN stack project that incorporates OpenAI to make predictions using Tarot Cards. Web Speech Recognition API to receive user voice inputs, as well as Googles Text-to-Speech API to have a computer-generated voice reading out the prediction results.',
     techStack:
       'MongoDB, Express, React, Node, GraphQl, JavaScript, HTML, SCSS, Tailwind, Heroku, Git',
-    demo: 'https://oracle-online.herokuapp.com/',
+    demo: 'http://tinyurl.com/oracle-online',
     github: 'https://github.com/winglovecola/oracle',
   },
   {
